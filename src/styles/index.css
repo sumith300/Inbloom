@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  @apply bg-primary text-white;
+}
+
+@layer components {
+  .nav-link {
+    @apply relative py-2 text-white hover:text-secondary transition-all duration-300 font-medium;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute w-0 h-0.5 bg-gradient-to-r from-secondary to-secondary-light left-0 -bottom-1 
+    rounded-full transition-all duration-300 opacity-0;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full opacity-100;
+  }
+
+  .active-nav-link {
+    @apply text-secondary;
+  }
+
+  .active-nav-link::after {
+    @apply w-full opacity-100;
+  }
+
+  .festival-border {
+    @apply relative overflow-hidden;
+  }
+
+  .festival-border::before {
+    @apply content-[''] absolute top-0 left-0 w-[200%] h-full bg-shimmer-gradient animate-shimmer;
+  }
+
+  .loading-skeleton {
+    @apply animate-pulse bg-white/10 rounded;
+  }
+
+  .image-loading {
+    @apply relative overflow-hidden;
+  }
+
+  .image-loading::after {
+    @apply content-[''] absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent;
+    animation: shimmer 1.5s infinite;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-primary-light/5;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-secondary to-custom-lightPurple rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gradient-to-b from-secondary-light to-custom-purple;
+}
+
+@layer utilities {
+  .bg-pattern {
+    background-color: transparent;
+    background-image: 
+      linear-gradient(30deg, #E84CA4 12%, transparent 12.5%, transparent 87%, #E84CA4 87.5%, #E84CA4),
+      linear-gradient(150deg, #E84CA4 12%, transparent 12.5%, transparent 87%, #E84CA4 87.5%, #E84CA4),
+      linear-gradient(30deg, #E84CA4 12%, transparent 12.5%, transparent 87%, #E84CA4 87.5%, #E84CA4),
+      linear-gradient(150deg, #E84CA4 12%, transparent 12.5%, transparent 87%, #E84CA4 87.5%, #E84CA4),
+      linear-gradient(60deg, #E84CA477 25%, transparent 25.5%, transparent 75%, #E84CA477 75%, #E84CA477),
+      linear-gradient(60deg, #E84CA477 25%, transparent 25.5%, transparent 75%, #E84CA477 75%, #E84CA477);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  }
+
+  .modal-open {
+    overflow: hidden;
+  }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
