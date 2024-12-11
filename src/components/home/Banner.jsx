@@ -25,7 +25,7 @@ const Banner = () => {
       </div>
 
       {/* Content Container */}
-      <div className="relative container mx-auto px-4 pt-32 pb-20">
+      <div className="relative container mx-auto px-4 pt-[80px] pb-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <motion.div

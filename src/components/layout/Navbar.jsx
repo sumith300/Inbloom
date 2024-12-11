@@ -35,12 +35,12 @@ const Navbar = () => {
 
   return (
     <nav 
-      className={`fixed w-full z-50 transition-all duration-300 transform ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 transform ${
         isVisible ? 'translate-y-0' : '-translate-y-full'
       } ${
         isScrolled 
-          ? 'bg-primary/98 shadow-lg py-2' 
-          : 'bg-gradient-to-r from-primary via-custom-lightPurple to-custom-purple py-4'
+          ? 'bg-primary/80 backdrop-blur-md shadow-lg py-2' 
+          : 'bg-primary/70 backdrop-blur-sm py-4'
       }`}
     >
       <div className="container mx-auto px-4">
