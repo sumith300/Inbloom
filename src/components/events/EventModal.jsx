@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import LazyImage from '../common/LazyImage';
-import { REGISTRATION_FORMS } from '../../utils/constants';
+import { REGISTRATION_FORMS } from '../../utils/constants/event/registerationForm';
 
 const ConfirmationDialog = ({ onConfirm, onCancel, event }) => (
   <motion.div
