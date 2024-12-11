@@ -1,16 +1,4 @@
-export const PLACEHOLDER_IMAGE = '/src/assets/images/common/placeholder.jpg';
-
-const getPlaceholderImage = (id) => `https://i.pravatar.cc/300?img=${id}`;
-
-export const teamCategories = [
-    'Core Team',
-    'Technical Team',
-    'Cultural Team',
-    'Marketing Team',
-    'Design Team'
-  ];
-
-  export const teamMembers = [
+export const teamMembers = [
     {
       id: 1,
       name: 'John Doe',

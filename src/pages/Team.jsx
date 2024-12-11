@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { teamMembers, teamCategories } from '../utils/constants';
+// import { teamCategories } from '../utils/constants/team/categories';
+// import { teamMembers } from '../utils/constants/team/members';
+import { teamCategories, teamMembers } from '../utils/constants';
 import TeamMemberCard from '../components/team/TeamMemberCard';
 
 const Team = () => {
   const [activeCategory, setActiveCategory] = useState('Core Team');
 
-  const filteredMembers = teamMembers.filter(
+  // Check if teamMembers is an array and has members
+  const filteredMembers = Array.isArray(teamMembers) ? teamMembers.filter(
     member => activeCategory === 'All' || member.category === activeCategory
-  );
+  ) : [];
 
   return (
     <div className="min-h-screen bg-primary py-20">
@@ -54,9 +57,13 @@ const Team = () => {
       {/* Team Grid */}
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filteredMembers.map((member) => (
-            <TeamMemberCard key={member.id} member={member} />
-          ))}
+          {filteredMembers.length > 0 ? (
+            filteredMembers.map((member) => (
+              <TeamMemberCard key={member.id} member={member} />
+            ))
+          ) : (
+            <p className="text-white">No team members found.</p>
+          )}
         </div>
       </div>
     </div>
