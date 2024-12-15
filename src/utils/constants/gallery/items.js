@@ -21,7 +21,7 @@ export const galleryItems = [
       thumbnail: 'src/assets/images/gallery/cultural/MUSIC1.jpg',
       title: 'Music',
       description: 'Annual Singing competition',
-      category: 'cultural'
+      category: 'Cultural'
     },
     {
       type: 'image',
@@ -29,7 +29,7 @@ export const galleryItems = [
       thumbnail: 'src/assets/images/gallery/cultural/PROCESSION1.jpg',
       title: 'Procession',
       description: 'performance arts',
-      category: 'cultural'
+      category: 'Cultural'
     },
     {
       type: 'image',
@@ -37,7 +37,7 @@ export const galleryItems = [
       thumbnail: 'src/assets/images/gallery/cultural/THEATRE1.jpg',
       title: 'Theatre',
       description: 'performance arts',
-      category: 'cultural'
+      category: 'Cultural'
     },
     {
       type: 'image',
@@ -45,6 +45,6 @@ export const galleryItems = [
       thumbnail: 'src/assets/images/gallery/cultural/LIT1.jpg',
       title: 'Lit',
       description: 'performance arts',
-      category: 'cultural'
+      category: 'Cultural'
     },
   ];
