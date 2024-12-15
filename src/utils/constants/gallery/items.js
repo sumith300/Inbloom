@@ -515,7 +515,7 @@ export const galleryItems = [
     title: 'Theatre',
     category: 'Theatre'
   },
- 
+
   {
     type: 'image',
     src: 'src/assets/images/gallery/theatre/THEATRE7.jpg',
@@ -523,7 +523,7 @@ export const galleryItems = [
     title: 'Theatre',
     category: 'Theatre'
   },
-  
+
   {
     type: 'image',
     src: 'src/assets/images/gallery/theatre/THEATRE9.jpg',
@@ -539,7 +539,7 @@ export const galleryItems = [
     title: 'Theatre',
     category: 'Theatre'
   },
- 
+
   {
     type: 'image',
     src: 'src/assets/images/gallery/theatre/THEATRE13.jpg',
@@ -555,7 +555,7 @@ export const galleryItems = [
     title: 'Theatre',
     category: 'Theatre'
   },
- 
+
   {
     type: 'image',
     src: 'src/assets/images/gallery/theatre/THEATRE17.jpg',
@@ -563,7 +563,7 @@ export const galleryItems = [
     title: 'Theatre',
     category: 'Theatre'
   },
- 
+
   {
     type: 'image',
     src: 'src/assets/images/gallery/theatre/THEATRE19.jpg',
@@ -571,7 +571,7 @@ export const galleryItems = [
     title: 'Theatre',
     category: 'Theatre'
   },
- 
+
 
   {
     type: 'image',
