@@ -171,7 +171,7 @@ export const events = [
       'Each team must have 3 members: 1 guesser and 2 actors.',
       'Prompts may include movies, characters, songs, phrases, or situations.',
       'Spelling, rhyming, splitting words, and codes are not allowed.',
-      'The final round will be decided at the judges’ discretion.',
+      "The final round will be decided at the judges's discretion.",
       'Vulgar or inappropriate gestures will lead to disqualification.',
       'Maximum of 2 teams allowed per college.'
     ],
