@@ -6,6 +6,7 @@ export const events = [
       date: '20th Jan, 2024',
       time: '11:00 AM',
       venue: 'Literary Hall',
+      image:'src/assets/images/events-images/jam.jpg',
       description: 'A one-minute challenge where participants speak on a given topic without hesitation, repetition, or deviation.',
       rules: [
         'Participants must speak for one minute without hesitation, repetition, or deviation.',
@@ -37,6 +38,7 @@ export const events = [
       date: '21st Jan, 2024',
       time: '2:00 PM',
       venue: 'Debate Hall',
+      image:'src/assets/images/events-images/debate.avif',
       description: 'Participants engage in a structured, non-parliamentary style debate, defending or opposing the motion.',
       rules: [
         'Participants are allotted 4 minutes for speaking and 1 minute for rebuttal.',
@@ -68,6 +70,7 @@ export const events = [
       date: '22nd Jan, 2024',
       time: '3:00 PM',
       venue: 'Drama Hall',
+      image:'src/assets/images/events-images/dumb-char.webp',
       description: 'A team-based event where participants act out prompts without speaking to convey the given word or phrase.',
       rules: [
         'Each team must have 3 members: 1 guesser and 2 actors.',
@@ -100,6 +103,7 @@ export const events = [
       date: '23rd Jan, 2024',
       time: '4:00 PM',
       venue: 'Activity Hall',
+      image:'src/assets/images/events-images/quiz.png',
       description: 'A multi-round event featuring a variety of literary activities such as quizzes, spell bee, crosswords, extempore, and more.',
       rules: [
         'Teams of 3 members are required (on-spot team-making is allowed).',
@@ -130,6 +134,7 @@ export const events = [
       date: '24th Jan, 2024',
       time: '10:00 AM',
       venue: 'Conference Room',
+      image:'src/assets/images/events-images/b-plan-pitching.jpg',
       description: 'An event where participants tackle real-life issues by formulating innovative business plans and presenting them to judges.',
       rules: [
         'Teams of up to 3 members are allowed.',
@@ -169,6 +174,7 @@ export const events = [
       date: '25th Jan, 2024',
       time: '11:00 AM',
       venue: 'Writing Lounge',
+      image:'src/assets/images/events-images/creative-writing.png',
       description: 'An individual event to showcase creative skills through short stories, essays, or poetry, based on on-the-spot prompts.',
       rules: [
         'Participants can choose between Short Story, Essay, or Poetry writing.',
@@ -218,6 +224,7 @@ export const events = [
     date: '25th Jan, 2024',
     time: '3:00 PM',
     venue: 'Debate Hall',
+    image:'src/assets/images/events-images/air-crash.jpg',
     description: 'An imaginative individual event where participants play a character and present a case to win the last lifejacket or lifeboat seat.',
     rules: [
       'Participants will be assigned a character and scenario randomly.',
@@ -250,6 +257,7 @@ export const events = [
     date: '26th Jan, 2024',
     time: '11:00 AM',
     venue: 'Art Studio',
+    image:'src/assets/images/events-images/pencil-skecth.jpg',
     description: 'An individual event where participants create pencil or charcoal sketches based on a prompt.',
     rules: [
       'Only pencils, charcoal, and erasers are allowed for sketching.',
@@ -282,6 +290,7 @@ export const events = [
     date: '27th Jan, 2024',
     time: '2:00 PM',
     venue: 'Media Lab',
+    image:'src/assets/images/events-images/reel-making.webp',
     description: 'An individual event where participants create short reels with basic editing and voiceovers, following a given theme.',
     rules: [
       'Maximum duration for the reel is 60-90 seconds.',
@@ -316,6 +325,7 @@ export const events = [
     date: '28th Jan, 2024',
     time: '11:00 AM',
     venue: 'Art Gallery',
+    image:'src/assets/images/events-images/painting.jpg',
     description: 'An individual event to showcase creativity by painting based on a theme provided on the spot.',
     rules: [
       'Participants can use any kind of paints (e.g., watercolors, acrylic, oil paints).',
@@ -348,6 +358,7 @@ export const events = [
     date: '29th Jan, 2024',
     time: '10:00 AM',
     venue: 'Craft Workshop',
+    image:'src/assets/images/events-images/pot-art.jpg',
     description: 'An individual event where participants decorate pots creatively based on a theme provided on the spot.',
     rules: [
       'The theme will be announced on the spot.',
@@ -380,6 +391,7 @@ export const events = [
     date: '30th Jan, 2024',
     time: '11:00 AM',
     venue: 'Campus Grounds',
+    image:'src/assets/images/events-images/photography.webp',
     description: 'An individual event where participants showcase their photography skills based on a theme provided prior to the event.',
     rules: [
       'Each participant must submit 2 photographs.',
@@ -412,6 +424,7 @@ export const events = [
     date: '31st Jan, 2024',
     time: '2:00 PM',
     venue: 'Design Lab',
+    image:'src/assets/images/events-images/logo-design.png',
     description: 'An individual event where participants create a logo based on a theme announced three days prior to the event.',
     rules: [
       'The theme will be announced 3 days before the event.',
@@ -446,6 +459,7 @@ export const events = [
     date: '1st Feb, 2024',
     time: '5:00 PM',
     venue: 'Main Auditorium',
+    image:'src/assets/images/events-images/battle-band.png',
     description: 'A Western music competition where bands perform their original compositions or covers to compete for the title.',
     rules: [
       'Each band must consist of 5-10 members.',
@@ -479,6 +493,7 @@ export const events = [
     date: '2nd Feb, 2024',
     time: '6:00 PM',
     venue: 'Music Hall',
+    image:'src/assets/images/events-images/beatbox.jpg',
     description: 'A group music competition where participants perform without any instrumental accompaniment, showcasing their vocal harmony and creativity.',
     rules: [
       'Each team must consist of 5-10 members, including a beatboxer (optional).',
@@ -512,6 +527,7 @@ export const events = [
     date: '3rd Feb, 2024',
     time: '4:00 PM',
     venue: 'Main Stage',
+    image:'src/assets/images/events-images/indian-group.jpg',
     description: 'A group performance event where participants perform Indian songs, showcasing their vocal and instrumental talent in various Indian languages.',
     rules: [
       'Each team must consist of 5-10 members.',
@@ -545,6 +561,8 @@ export const events = [
     date: '4th Feb, 2024',
     time: '5:00 PM',
     venue: 'Music Hall',
+    image:'src/assets/images/events-images/indian-solo-singing.avif',
+    
     description: 'A solo singing competition where participants perform Indian folk or film songs, showcasing their vocal skills and creativity.',
     rules: [
       'Each participant must perform solo, with a maximum of one accompanist.',
@@ -578,6 +596,7 @@ export const events = [
     date: '5th Feb, 2024',
     time: '6:00 PM',
     venue: 'Music Hall',
+    image:'src/assets/images/events-images/indian-folk-solo.webp',
     description: 'A solo singing competition where participants perform Western songs, showcasing their vocal range, expression, and musicality.',
     rules: [
       'Each participant must perform solo, with a maximum of one accompanist.',
@@ -611,6 +630,7 @@ export const events = [
     date: '6th Feb, 2024',
     time: '5:00 PM',
     venue: 'Dance Arena',
+    image:'src/assets/images/events-images/non-theme-group-dance.png',
     description: 'A group dance competition where teams perform without a specific theme or concept, showcasing their creative choreography.',
     rules: [
       'Teams must consist of 7-14 members.',
@@ -642,6 +662,7 @@ export const events = [
     date: '7th Feb, 2024',
     time: '6:00 PM',
     venue: 'Dance Arena',
+    image:'src/assets/images/events-images/theme-group-dance.avif',
     description: 'A group dance competition where teams perform with a specific theme, allowing song fusion to enhance creativity.',
     rules: [
       'Teams must consist of 7-14 members.',
@@ -673,6 +694,7 @@ export const events = [
     date: '8th Feb, 2024',
     time: '5:30 PM',
     venue: 'Cultural Hall',
+    image:'src/assets/images/events-images/classical-group-dance.jpg',
     description: 'A group dance competition featuring authentic classical dance performances, where the focus is on the traditional forms of Indian dance.',
     rules: [
       'Teams must consist of 7-14 members.',
@@ -707,6 +729,7 @@ export const events = [
     date: '9th Feb, 2024',
     time: '3:00 PM',
     venue: 'Dance Arena',
+    image:'src/assets/images/events-images/non-theme-solo.jpg',
     description: 'A solo dance competition where participants perform without any given theme, showcasing their dance skills.',
     rules: [
       'The performance time limit is 2+1 minutes.',
@@ -738,6 +761,7 @@ export const events = [
     date: '10th Feb, 2024',
     time: '11:00 AM',
     venue: 'Cultural Stage',
+    image:'src/assets/images/events-images/classical-solo-dance.jpeg',
     description: 'A solo dance competition featuring classical dance performances, focusing on traditional Indian art forms.',
     rules: [
       'The performance time limit is 4 minutes.',
@@ -770,6 +794,7 @@ export const events = [
     date: '11th Feb, 2024',
     time: '2:00 PM',
     venue: 'Dance Arena',
+    image:'src/assets/images/events-images/non-theme-duet.webp',
     description: 'A duet dance competition where pairs of dancers perform without a given theme, showcasing their chemistry and choreography.',
     rules: [
       'The duet must consist of 2 dancers.',
@@ -801,6 +826,7 @@ export const events = [
     date: '12th Feb, 2024',
     time: '9:00 AM',
     venue: 'Gaming Hub',
+    image:'src/assets/images/events-images/valorant.avif',
     description: 'A team-based first-person shooter game where players compete to complete objectives and eliminate the opposing team.',
     rules: [
       'Teams of 5 players, solo players will be grouped into teams.',
@@ -832,6 +858,7 @@ export const events = [
     date: '13th Feb, 2024',
     time: '10:00 AM',
     venue: 'Gaming Zone',
+    image:'src/assets/images/events-images/cod.jpg',
     description: 'A mobile first-person shooter game where players compete in team-based modes to complete objectives and eliminate opponents.',
     rules: [
       'Players must bring their own mobile devices with the latest version of Call of Duty Mobile pre-installed.',
@@ -864,6 +891,7 @@ export const events = [
     date: '14th Feb, 2024',
     time: '9:00 AM',
     venue: 'Gaming Arena',
+    image:'src/assets/images/events-images/bgmi.webp',
     description: 'A mobile battle royale game where teams compete to be the last ones standing in a shrinking map.',
     rules: [
       'Players must bring their own devices, headsets, and chargers.',
@@ -895,6 +923,7 @@ export const events = [
     date: '15th Feb, 2024',
     time: '10:00 AM',
     venue: 'Esports Arena',
+    image:'src/assets/images/events-images/fifa.jpg',
     description: 'A solo football simulation video game where players compete in timed matches to score goals and win the game.',
     rules: [
       'This is a solo event, no teams allowed.',
