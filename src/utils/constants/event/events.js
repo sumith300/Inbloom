@@ -784,14 +784,9 @@ export const events = [
     registrationFee: '₹300 per player',
     coordinators: [
       {
-        name: 'Sandeep Raj',
-        phone: '+91 98765 43268',
-        email: 'sandeep.r@christ.in'
-      },
-      {
-        name: 'Tina Kumar',
-        phone: '+91 98765 43269',
-        email: 'tina.k@christ.in'
+        name: 'Parthiv Ghosh',
+        phone: '9874626105',
+        email: 'parthiv.ghosh@bcz.christuniversity.in '
       }
     ]
   }
@@ -818,14 +813,9 @@ export const events = [
     registrationFee: '₹200 per player',
     coordinators: [
       {
-        name: 'Rajiv Soni',
-        phone: '+91 98765 43270',
-        email: 'rajiv.s@christ.in'
-      },
-      {
-        name: 'Maya Jain',
-        phone: '+91 98765 43271',
-        email: 'maya.j@christ.in'
+        name: 'Parthiv Ghosh',
+        phone: '9874626105',
+        email: 'parthiv.ghosh@bcz.christuniversity.in '
       }
     ]
   }
@@ -851,14 +841,9 @@ export const events = [
     registrationFee: '₹250 per player',
     coordinators: [
       {
-        name: 'Suresh Babu',
-        phone: '+91 98765 43272',
-        email: 'suresh.b@christ.in'
-      },
-      {
-        name: 'Nisha Patel',
-        phone: '+91 98765 43273',
-        email: 'nisha.p@christ.in'
+        name: 'Parthiv Ghosh',
+        phone: '9874626105',
+        email: 'parthiv.ghosh@bcz.christuniversity.in '
       }
     ]
   }
@@ -884,15 +869,11 @@ export const events = [
     registrationFee: '₹150 per participant',
     coordinators: [
       {
-        name: 'Ravi Tiwari',
-        phone: '+91 98765 43274',
-        email: 'ravi.t@christ.in'
-      },
-      {
-        name: 'Deepika Sharma',
-        phone: '+91 98765 43275',
-        email: 'deepika.s@christ.in'
+        name: 'Parthiv Ghosh',
+        phone: '9874626105',
+        email: 'parthiv.ghosh@bcz.christuniversity.in '
       }
+      
     ]
   }
   ];
