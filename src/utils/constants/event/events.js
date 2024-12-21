@@ -3,9 +3,10 @@ export const events = [
       id: 1,
       title: 'Jam',
       category: 'Literary',
-      date: '20th Jan, 2024',
-      time: '11:00 AM',
+      date: '24th Jan, 2025',
+      time: '2:00 PM',
       venue: 'Literary Hall',
+      teamSize:'3 per team',
       image:'src/assets/images/events-images/jam.jpg',
       description: 'A one-minute challenge where participants speak on a given topic without hesitation, repetition, or deviation.',
       rules: [
@@ -19,14 +20,9 @@ export const events = [
       registrationFee: '₹150 per participant',
       coordinators: [
         {
-          name: 'Alex Morgan',
-          phone: '+91 98765 43215',
+          name: 'Himadri Mittal',
+          phone: '9352338914',
           email: 'alex.m@christ.in'
-        },
-        {
-          name: 'Nina Kapoor',
-          phone: '+91 98765 43225',
-          email: 'nina.k@christ.in'
         }
       ]
     }
@@ -35,8 +31,9 @@ export const events = [
       id: 2,
       title: 'Debate',
       category: 'Literary',
-      date: '21st Jan, 2024',
+      date: '24-25th Jan, 2025',
       time: '2:00 PM',
+      teamSize:'3 per team',
       venue: 'Debate Hall',
       image:'src/assets/images/events-images/debate.avif',
       description: 'Participants engage in a structured, non-parliamentary style debate, defending or opposing the motion.',
@@ -51,14 +48,9 @@ export const events = [
       registrationFee: '₹200 per participant',
       coordinators: [
         {
-          name: 'Rachel Brown',
+          name: 'Shravani',
           phone: '+91 98765 43218',
           email: 'rachel.b@christ.in'
-        },
-        {
-          name: 'James Carter',
-          phone: '+91 98765 43224',
-          email: 'james.c@christ.in'
         }
       ]
     }
@@ -69,6 +61,7 @@ export const events = [
       category: 'Literary',
       date: '22nd Jan, 2024',
       time: '3:00 PM',
+      teamSize:'3',
       venue: 'Drama Hall',
       image:'src/assets/images/events-images/dumb-char.webp',
       description: 'A team-based event where participants act out prompts without speaking to convey the given word or phrase.',
@@ -84,14 +77,9 @@ export const events = [
       registrationFee: '₹300 per team',
       coordinators: [
         {
-          name: 'Sarah Johnson',
-          phone: '+91 98765 43226',
+          name: 'Pranaw',
+          phone: '7904330285',
           email: 'sarah.j@christ.in'
-        },
-        {
-          name: 'Michael Adams',
-          phone: '+91 98765 43227',
-          email: 'michael.a@christ.in'
         }
       ]
     }
@@ -100,8 +88,9 @@ export const events = [
       id: 4,
       title: 'Pot-Pourri',
       category: 'Literary',
-      date: '23rd Jan, 2024',
+      date: '24-25th Jan, 2024',
       time: '4:00 PM',
+      teamSize:'3',
       venue: 'Activity Hall',
       image:'src/assets/images/events-images/quiz.png',
       description: 'A multi-round event featuring a variety of literary activities such as quizzes, spell bee, crosswords, extempore, and more.',
@@ -116,13 +105,13 @@ export const events = [
       registrationFee: '₹450 per team',
       coordinators: [
         {
-          name: 'Jessica Turner',
-          phone: '+91 98765 43228',
+          name: 'Sanjana ',
+          phone: '6364176003',
           email: 'jessica.t@christ.in'
         },
         {
-          name: 'Arjun Mehta',
-          phone: '+91 98765 43229',
+          name: 'Anusmita',
+          phone: '7980968190',
           email: 'arjun.m@christ.in'
         }
       ]
@@ -131,8 +120,9 @@ export const events = [
       id: 5,
       title: 'B-Plan Pitching',
       category: 'Literary',
-      date: '24th Jan, 2024',
-      time: '10:00 AM',
+      date: '24th Jan, 2025',
+      time: '1:30 PM',
+      teamSize:'3',
       venue: 'Conference Room',
       image:'src/assets/images/events-images/b-plan-pitching.jpg',
       description: 'An event where participants tackle real-life issues by formulating innovative business plans and presenting them to judges.',
@@ -156,8 +146,8 @@ export const events = [
       registrationFee: '₹600 per team',
       coordinators: [
         {
-          name: 'Priya Sharma',
-          phone: '+91 98765 43230',
+          name: 'Pallavi Mondal',
+          phone: '6296264669',
           email: 'priya.s@christ.in'
         },
         {
@@ -173,6 +163,7 @@ export const events = [
       category: 'Literary',
       date: '25th Jan, 2024',
       time: '11:00 AM',
+      teamSize:'3',
       venue: 'Writing Lounge',
       image:'src/assets/images/events-images/creative-writing.png',
       description: 'An individual event to showcase creative skills through short stories, essays, or poetry, based on on-the-spot prompts.',
@@ -206,14 +197,9 @@ export const events = [
       registrationFee: '₹200 per participant',
       coordinators: [
         {
-          name: 'Sophia Taylor',
-          phone: '+91 98765 43232',
+          name: 'Amy ',
+          phone: '8590153571',
           email: 'sophia.t@christ.in'
-        },
-        {
-          name: 'Ankit Verma',
-          phone: '+91 98765 43233',
-          email: 'ankit.v@christ.in'
         }
       ]
     }
@@ -221,8 +207,9 @@ export const events = [
     id: 7,
     title: 'Air Crash/Shipwreck',
     category: 'Literary',
-    date: '25th Jan, 2024',
+    date: '25th Jan, 2025',
     time: '3:00 PM',
+    teamSize:'3',
     venue: 'Debate Hall',
     image:'src/assets/images/events-images/air-crash.jpg',
     description: 'An imaginative individual event where participants play a character and present a case to win the last lifejacket or lifeboat seat.',
@@ -238,14 +225,9 @@ export const events = [
     registrationFee: '₹150 per participant',
     coordinators: [
       {
-        name: 'Rohit Nair',
-        phone: '+91 98765 43234',
+        name: 'Sanjana',
+        phone: '6364176003',
         email: 'rohit.n@christ.in'
-      },
-      {
-        name: 'Amrita Das',
-        phone: '+91 98765 43235',
-        email: 'amrita.d@christ.in'
       }
     ]
   }
@@ -256,6 +238,7 @@ export const events = [
     category: 'Art',
     date: '26th Jan, 2024',
     time: '11:00 AM',
+    teamSize:'3',
     venue: 'Art Studio',
     image:'src/assets/images/events-images/pencil-skecth.jpg',
     description: 'An individual event where participants create pencil or charcoal sketches based on a prompt.',
@@ -271,14 +254,14 @@ export const events = [
     registrationFee: '₹250 per participant',
     coordinators: [
       {
-        name: 'Emily Rose',
-        phone: '+91 98765 43216',
-        email: 'emily.r@christ.in'
+        name: 'Likhita M',
+        phone: '9141041245',
+        email: '2 BSCDM'
       },
       {
-        name: 'Rajesh Iyer',
-        phone: '+91 98765 43236',
-        email: 'rajesh.i@christ.in'
+        name: 'Yadu Nand D B ',
+        phone: '8129999475',
+        email: '4 BAHP'
       }
     ]
   }
@@ -289,6 +272,7 @@ export const events = [
     category: 'Art',
     date: '27th Jan, 2024',
     time: '2:00 PM',
+    teamSize:'3',
     venue: 'Media Lab',
     image:'src/assets/images/events-images/reel-making.webp',
     description: 'An individual event where participants create short reels with basic editing and voiceovers, following a given theme.',
@@ -305,14 +289,14 @@ export const events = [
     registrationFee: '₹200 per participant',
     coordinators: [
       {
-        name: 'Nisha Agarwal',
-        phone: '+91 98765 43237',
-        email: 'nisha.a@christ.in'
+        name: 'Jeeva Maria Jose',
+        phone: '9495770822',
+        email: '2 BCOM F&I B'
       },
       {
-        name: 'Rahul Dev',
-        phone: '+91 98765 43238',
-        email: 'rahul.d@christ.in'
+        name: 'Rishit Bhargava',
+        phone: '8382909103',
+        email: '4 BCOM AFA'
       }
     ]
   }
@@ -324,6 +308,7 @@ export const events = [
     category: 'Art',
     date: '28th Jan, 2024',
     time: '11:00 AM',
+    teamSize:'3',
     venue: 'Art Gallery',
     image:'src/assets/images/events-images/painting.jpg',
     description: 'An individual event to showcase creativity by painting based on a theme provided on the spot.',
@@ -339,14 +324,14 @@ export const events = [
     registrationFee: '₹300 per participant',
     coordinators: [
       {
-        name: 'Sophia Clark',
-        phone: '+91 98765 43219',
-        email: 'sophia.c@christ.in'
+        name: 'Urfee Ayub',
+        phone: '8018802780',
+        email: '2BBA A'
       },
       {
-        name: 'Karan Gupta',
-        phone: '+91 98765 43239',
-        email: 'karan.g@christ.in'
+        name: 'Surya Manoj',
+        phone: '6362057395',
+        email: '2 BCOM F&A C'
       }
     ]
   }
@@ -357,6 +342,7 @@ export const events = [
     category: 'Art',
     date: '29th Jan, 2024',
     time: '10:00 AM',
+    teamSize:'3',
     venue: 'Craft Workshop',
     image:'src/assets/images/events-images/pot-art.jpg',
     description: 'An individual event where participants decorate pots creatively based on a theme provided on the spot.',
@@ -372,14 +358,14 @@ export const events = [
     registrationFee: '₹250 per participant',
     coordinators: [
       {
-        name: 'Meera Sharma',
-        phone: '+91 98765 43240',
-        email: 'meera.s@christ.in'
+        name: 'Sofiya alphy shibu',
+        phone: '7907134373',
+        email: '2 BCOM A'
       },
       {
-        name: 'Aditya Rao',
-        phone: '+91 98765 43241',
-        email: 'aditya.r@christ.in'
+        name: 'Anisha M',
+        phone: '9606374951',
+        email: '4 BCOM AFA'
       }
     ]
   }
@@ -390,6 +376,7 @@ export const events = [
     category: 'Art',
     date: '30th Jan, 2024',
     time: '11:00 AM',
+    teamSize:'3',
     venue: 'Campus Grounds',
     image:'src/assets/images/events-images/photography.webp',
     description: 'An individual event where participants showcase their photography skills based on a theme provided prior to the event.',
@@ -405,14 +392,14 @@ export const events = [
     registrationFee: '₹200 per participant',
     coordinators: [
       {
-        name: 'Anjali Kapoor',
-        phone: '+91 98765 43242',
-        email: 'anjali.k@christ.in'
+        name: 'Ramisha R',
+        phone: '7012669229',
+        email: '2 BSC BTB'
       },
       {
-        name: 'Rohan Singh',
-        phone: '+91 98765 43243',
-        email: 'rohan.s@christ.in'
+        name: 'Priyadarshini G',
+        phone: '7899401036',
+        email: '4 BAPECO '
       }
     ]
   }
@@ -423,6 +410,7 @@ export const events = [
     category: 'Art',
     date: '31st Jan, 2024',
     time: '2:00 PM',
+    teamSize:'3',
     venue: 'Design Lab',
     image:'src/assets/images/events-images/logo-design.png',
     description: 'An individual event where participants create a logo based on a theme announced three days prior to the event.',
@@ -440,14 +428,14 @@ export const events = [
     registrationFee: '₹350 per participant',
     coordinators: [
       {
-        name: 'Ravi Mehta',
-        phone: '+91 98765 43244',
-        email: 'ravi.m@christ.in'
+        name: 'Anna Christopher J I ',
+        phone: '9880672527',
+        email: '2 BSC CM '
       },
       {
-        name: 'Simran Kapoor',
-        phone: '+91 98765 43245',
-        email: 'simran.k@christ.in'
+        name: 'Adwita Verma',
+        phone: '7889641406',
+        email: '4BSC BTF'
       }
     ]
   }
@@ -456,8 +444,9 @@ export const events = [
     id: 14,
     title: 'Battle of the Bands',
     category: 'Music',
-    date: '1st Feb, 2024',
+    date: '25th Jan, 2025',
     time: '5:00 PM',
+    teamSize:'3',
     venue: 'Main Auditorium',
     image:'src/assets/images/events-images/battle-band.png',
     description: 'A Western music competition where bands perform their original compositions or covers to compete for the title.',
@@ -474,14 +463,9 @@ export const events = [
     registrationFee: '₹500 per band',
     coordinators: [
       {
-        name: 'James Carter',
-        phone: '+91 98765 43246',
-        email: 'james.c@christ.in'
-      },
-      {
-        name: 'Priya Nair',
-        phone: '+91 98765 43247',
-        email: 'priya.n@christ.in'
+        name: 'Jyoti Shree S',
+        phone: '8431469839',
+        email: '6 BCOM A'
       }
     ]
   }
@@ -490,8 +474,9 @@ export const events = [
     id: 15,
     title: 'Acapella',
     category: 'Music',
-    date: '2nd Feb, 2024',
+    date: '23rd Jan, 2025',
     time: '6:00 PM',
+    teamSize:'3',
     venue: 'Music Hall',
     image:'src/assets/images/events-images/beatbox.jpg',
     description: 'A group music competition where participants perform without any instrumental accompaniment, showcasing their vocal harmony and creativity.',
@@ -508,14 +493,9 @@ export const events = [
     registrationFee: '₹400 per team',
     coordinators: [
       {
-        name: 'Liam Patel',
-        phone: '+91 98765 43248',
-        email: 'liam.p@christ.in'
-      },
-      {
-        name: 'Ananya Verma',
-        phone: '+91 98765 43249',
-        email: 'ananya.v@christ.in'
+        name: 'Sikha',
+        phone: '7205010710',
+        email: '2 BAJE'
       }
     ]
   }
@@ -524,8 +504,9 @@ export const events = [
     id: 16,
     title: 'Indian Group',
     category: 'Music',
-    date: '3rd Feb, 2024',
+    date: '25th Jan, 2025',
     time: '4:00 PM',
+    teamSize:'3',
     venue: 'Main Stage',
     image:'src/assets/images/events-images/indian-group.jpg',
     description: 'A group performance event where participants perform Indian songs, showcasing their vocal and instrumental talent in various Indian languages.',
@@ -542,14 +523,9 @@ export const events = [
     registrationFee: '₹500 per team',
     coordinators: [
       {
-        name: 'Ravi Kumar',
-        phone: '+91 98765 43250',
-        email: 'ravi.k@christ.in'
-      },
-      {
-        name: 'Asha Singh',
-        phone: '+91 98765 43251',
-        email: 'asha.s@christ.in'
+        name: 'Tharun Reddy A',
+        phone: '8618830264',
+        email: '2 BCOM FA D'
       }
     ]
   }
@@ -558,8 +534,9 @@ export const events = [
     id: 17,
     title: 'Indian Folk and Film Singing (Solos)',
     category: 'Music (Solos-Only)',
-    date: '4th Feb, 2024',
+    date: '24th Jan, 2025',
     time: '5:00 PM',
+    teamSize:'3',
     venue: 'Music Hall',
     image:'src/assets/images/events-images/indian-solo-singing.avif',
     
@@ -577,14 +554,9 @@ export const events = [
     registrationFee: '₹200 per participant',
     coordinators: [
       {
-        name: 'Suman Kumar',
-        phone: '+91 98765 43252',
-        email: 'suman.k@christ.in'
-      },
-      {
-        name: 'Isha Patel',
-        phone: '+91 98765 43253',
-        email: 'isha.p@christ.in'
+        name: 'Ishaani',
+        phone: '9880868638',
+        email: '2 BACP'
       }
     ]
   }
@@ -593,8 +565,9 @@ export const events = [
     id: 18,
     title: 'Western Singing (Solos)',
     category: 'Music (Solos-Only)',
-    date: '5th Feb, 2024',
+    date: '24th Jan, 2025',
     time: '6:00 PM',
+    teamSize:'3',
     venue: 'Music Hall',
     image:'src/assets/images/events-images/indian-folk-solo.webp',
     description: 'A solo singing competition where participants perform Western songs, showcasing their vocal range, expression, and musicality.',
@@ -611,14 +584,9 @@ export const events = [
     registrationFee: '₹200 per participant',
     coordinators: [
       {
-        name: 'John Richards',
-        phone: '+91 98765 43254',
-        email: 'john.r@christ.in'
-      },
-      {
-        name: 'Elena Thompson',
-        phone: '+91 98765 43255',
-        email: 'elena.t@christ.in'
+        name: 'Dipti',
+        phone: '8073128622',
+        email: '2 BACP'
       }
     ]
   }
@@ -627,8 +595,9 @@ export const events = [
     id: 19,
     title: 'Non-Theme Group Dance',
     category: 'Dance',
-    date: '6th Feb, 2024',
+    date: '25th Jan, 2025',
     time: '5:00 PM',
+    teamSize:'3',
     venue: 'Dance Arena',
     image:'src/assets/images/events-images/non-theme-group-dance.png',
     description: 'A group dance competition where teams perform without a specific theme or concept, showcasing their creative choreography.',
@@ -643,14 +612,9 @@ export const events = [
     registrationFee: '₹500 per team',
     coordinators: [
       {
-        name: 'Priya Patel',
-        phone: '+91 98765 43256',
-        email: 'priya.p@christ.in'
-      },
-      {
-        name: 'Ravi Sharma',
-        phone: '+91 98765 43257',
-        email: 'ravi.s@christ.in'
+        name: 'Kashik',
+        phone: '8791600273',
+        email: '4 BAJE'
       }
     ]
   }
@@ -659,8 +623,9 @@ export const events = [
     id: 20,
     title: 'Theme Group Dance',
     category: 'Dance',
-    date: '7th Feb, 2024',
+    date: '24th Jan, 2025',
     time: '6:00 PM',
+    teamSize:'3',
     venue: 'Dance Arena',
     image:'src/assets/images/events-images/theme-group-dance.avif',
     description: 'A group dance competition where teams perform with a specific theme, allowing song fusion to enhance creativity.',
@@ -675,14 +640,9 @@ export const events = [
     registrationFee: '₹600 per team',
     coordinators: [
       {
-        name: 'Shalini Verma',
-        phone: '+91 98765 43258',
-        email: 'shalini.v@christ.in'
-      },
-      {
-        name: 'Nikhil Yadav',
-        phone: '+91 98765 43259',
-        email: 'nikhil.y@christ.in'
+        name: 'Shranya',
+        phone: '9818444772',
+        email: '2BACP'
       }
     ]
   }
@@ -691,8 +651,9 @@ export const events = [
     id: 21,
     title: 'Classical Group Dance',
     category: 'Dance',
-    date: '8th Feb, 2024',
+    date: '24th Jan, 2025',
     time: '5:30 PM',
+    teamSize:'3',
     venue: 'Cultural Hall',
     image:'src/assets/images/events-images/classical-group-dance.jpg',
     description: 'A group dance competition featuring authentic classical dance performances, where the focus is on the traditional forms of Indian dance.',
@@ -710,14 +671,9 @@ export const events = [
     registrationFee: '₹700 per team',
     coordinators: [
       {
-        name: 'Sangeeta Roy',
-        phone: '+91 98765 43260',
-        email: 'sangeeta.r@christ.in'
-      },
-      {
-        name: 'Rajesh Kumar',
-        phone: '+91 98765 43261',
-        email: 'rajesh.k@christ.in'
+        name: 'Shwetal',
+        phone: '7011686844',
+        email: '4 BSC BTC'
       }
     ]
   }
@@ -726,8 +682,9 @@ export const events = [
     id: 22,
     title: 'Non-Theme Solo Dance',
     category: 'Dance',
-    date: '9th Feb, 2024',
+    date: '24th Jan, 2025',
     time: '3:00 PM',
+    teamSize:'3',
     venue: 'Dance Arena',
     image:'src/assets/images/events-images/non-theme-solo.jpg',
     description: 'A solo dance competition where participants perform without any given theme, showcasing their dance skills.',
@@ -742,14 +699,9 @@ export const events = [
     registrationFee: '₹250 per participant',
     coordinators: [
       {
-        name: 'Ananya Das',
-        phone: '+91 98765 43262',
-        email: 'ananya.d@christ.in'
-      },
-      {
-        name: 'Vikram Singh',
-        phone: '+91 98765 43263',
-        email: 'vikram.s@christ.in'
+        name: 'Diva Soni',
+        phone: '7726845401',
+        email: '2 BSC BTB'
       }
     ]
   }
@@ -758,8 +710,9 @@ export const events = [
     id: 23,
     title: 'Classical Solo Dance',
     category: 'Dance',
-    date: '10th Feb, 2024',
+    date: '25th Jan, 2025',
     time: '11:00 AM',
+    teamSize:'3',
     venue: 'Cultural Stage',
     image:'src/assets/images/events-images/classical-solo-dance.jpeg',
     description: 'A solo dance competition featuring classical dance performances, focusing on traditional Indian art forms.',
@@ -775,14 +728,9 @@ export const events = [
     registrationFee: '₹300 per participant',
     coordinators: [
       {
-        name: 'Priya Sharma',
-        phone: '+91 98765 43264',
-        email: 'priya.s@christ.in'
-      },
-      {
-        name: 'Ravi Gupta',
-        phone: '+91 98765 43265',
-        email: 'ravi.g@christ.in'
+        name: 'Shivangi S',
+        phone: '9148892461',
+        email: '2 BCOM AFA'
       }
     ]
   }
@@ -791,8 +739,9 @@ export const events = [
     id: 24,
     title: 'Non-Theme Duet Dance',
     category: 'Dance',
-    date: '11th Feb, 2024',
+    date: '25th Jan, 2025',
     time: '2:00 PM',
+    teamSize:'3',
     venue: 'Dance Arena',
     image:'src/assets/images/events-images/non-theme-duet.webp',
     description: 'A duet dance competition where pairs of dancers perform without a given theme, showcasing their chemistry and choreography.',
@@ -807,14 +756,9 @@ export const events = [
     registrationFee: '₹400 per duo',
     coordinators: [
       {
-        name: 'Neha Joshi',
-        phone: '+91 98765 43266',
-        email: 'neha.j@christ.in'
-      },
-      {
-        name: 'Manish Sharma',
-        phone: '+91 98765 43267',
-        email: 'manish.s@christ.in'
+        name: 'Simarpreet Kaur',
+        phone: '7973631090',
+        email: '2 BCOM AFA'
       }
     ]
   }
@@ -825,6 +769,7 @@ export const events = [
     category: 'E-Sports',
     date: '12th Feb, 2024',
     time: '9:00 AM',
+    teamSize:'3',
     venue: 'Gaming Hub',
     image:'src/assets/images/events-images/valorant.avif',
     description: 'A team-based first-person shooter game where players compete to complete objectives and eliminate the opposing team.',
@@ -857,6 +802,7 @@ export const events = [
     category: 'E-Sports',
     date: '13th Feb, 2024',
     time: '10:00 AM',
+    teamSize:'3',
     venue: 'Gaming Zone',
     image:'src/assets/images/events-images/cod.jpg',
     description: 'A mobile first-person shooter game where players compete in team-based modes to complete objectives and eliminate opponents.',
@@ -890,6 +836,7 @@ export const events = [
     category: 'E-Sports',
     date: '14th Feb, 2024',
     time: '9:00 AM',
+    teamSize:'3',
     venue: 'Gaming Arena',
     image:'src/assets/images/events-images/bgmi.webp',
     description: 'A mobile battle royale game where teams compete to be the last ones standing in a shrinking map.',
@@ -922,6 +869,7 @@ export const events = [
     category: 'E-Sports',
     date: '15th Feb, 2024',
     time: '10:00 AM',
+    teamSize:'3',
     venue: 'Esports Arena',
     image:'src/assets/images/events-images/fifa.jpg',
     description: 'A solo football simulation video game where players compete in timed matches to score goals and win the game.',
