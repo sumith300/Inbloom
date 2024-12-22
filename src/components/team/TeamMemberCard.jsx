@@ -37,7 +37,7 @@ const TeamMemberCard = ({ member }) => {
           </div>
 
           {/* Hover Icon */}
-          <div className="w-8 h-8 flex items-center justify-center text-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          {/* <div className="w-8 h-8 flex items-center justify-center text-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <svg 
               className="w-5 h-5" 
               fill="none" 
@@ -51,17 +51,17 @@ const TeamMemberCard = ({ member }) => {
                 d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" 
               />
             </svg>
-          </div>
+          </div> */}
         </div>
 
-        {/* Quote on Hover */}
+        {/* Quote on Hover
         <div className="max-h-0 opacity-0 group-hover:max-h-20 group-hover:opacity-100 transition-all duration-300 overflow-hidden">
           <div className="px-4 pb-4 pt-2 border-t border-white/10">
             <p className="text-white/70 text-xs italic">
               "{member.quote || 'Dedicated to creating unforgettable experiences'}"
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );

@@ -35,7 +35,7 @@ export const teamMembers = [
     name: 'Nigel Mondal',
     role: 'Logistics',
     category: 'Core Team',
-    image: 'src/assets/images/Team/NigelMondal3.JPG',
+    image: 'src/assets/images/Team/Nigel.JPG',
     description: 'Ensuring smooth logistics for all aspects of the event.',
   },
   {
@@ -51,7 +51,7 @@ export const teamMembers = [
     name: 'Evelyn Tessy Emmanuel',
     role: 'Sponsorship',
     category: 'Core Team',
-    image: 'src/assets/images/Team/EvelynTessyEmmanuel5.JPG',
+    image: 'src/assets/images/Team/Evelyn.jpg',
     description: 'Securing sponsorships and partnerships.',
   },
   {
@@ -59,7 +59,7 @@ export const teamMembers = [
     name: 'Maanya Varma',
     role: 'Cultural Secretary',
     category: 'Core Team',
-    image: 'src/assets/images/Team/EvelynTessyEmmanuel5.JPG',
+    image: 'src/assets/images/Team/Maanya.jpg',
     description: 'Overseeing cultural activities.',
   },
   {
@@ -145,7 +145,7 @@ export const teamMembers = [
     name: 'Mufti Sauleh',
     role: 'Media Head',
     category: 'Engagement',
-    image: getPlaceholderImage(18),
+    image: 'src/assets/images/Team/Sauleh_1.JPG',
   },
   {
     id: 19,
@@ -257,7 +257,7 @@ export const teamMembers = [
     name: 'NEVIL GEORGE NINAN',
     role: 'Esports Secretary',
     category: 'Engagement',
-    image: 'src/assets/images/Team/NEVIL GEORGE NINAN .JPG',
+    image: 'src/assets/images/Team/Nevil_1.JPG',
   },
   {
     id: 35,
@@ -320,7 +320,7 @@ export const teamMembers = [
     name: 'Annliya Sangeeth',
     role: 'Esports Secretary',
     category: 'Event management',
-    image: getPlaceholderImage(11),
+    image: 'src/assets/images/Team/ANNLIYA.JPG',
   },
   {
     id: 44,
@@ -332,22 +332,22 @@ export const teamMembers = [
   {
     id: 45,
     name: 'Tushar Ghosh',
-    role: 'Esports Secretary',
+    role: 'Web Developer',
     category: 'Website',
-    image: getPlaceholderImage(8) ,
+    image: 'src/assets/images/Team/tushar.jpeg' ,
   },
   {
     id: 46,
-    name: 'Sumit meena',
-    role: 'Esports Secretary',
-    category: 'Website',
-    image: getPlaceholderImage(32) ,
+    name: 'Sumith meena',
+    role: 'Web Devloper',
+    category: 'Core Team',
+    image: 'src/assets/images/Team/sumith.jpeg' ,
   },
   {
     id: 47,
     name: 'Shrey Jain',
-    role: 'Esports Secretary',
+    role: 'Web Developer',
     category: 'Website',
-    image: getPlaceholderImage(33) ,
+    image: 'src/assets/images/Team/shrey.webp',
   },
 ];
