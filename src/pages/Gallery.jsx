@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import GalleryGrid from '../components/gallery/GalleryGrid';
-import CategoryFilter from '../components/gallery/CategoryFilter';
-import { galleryItems, categories } from '../utils/constants';
+import GalleryGrid from '../components/Gallery/GalleryGrid';
+import CategoryFilter from '../components/Gallery/CategoryFilter';
+import { categories } from '../utils/constants/gallery/categories';
+import { galleryItems } from '../utils/constants/gallery/items';
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState('All');
