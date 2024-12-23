@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import PropTypes from 'prop-types';
 
 const GalleryItem = ({ item, onClick }) => {
   return (
