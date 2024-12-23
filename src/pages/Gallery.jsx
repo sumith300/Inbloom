@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import GalleryGrid from '../components/Gallery/GalleryGrid';
-import CategoryFilter from '../components/Gallery/CategoryFilter';
+import GalleryGrid from '../components/gallery/GalleryGrid';
+import CategoryFilter from '../components/gallery/CategoryFilter';
 import { categories } from '../utils/constants/gallery/categories';
 import { galleryItems } from '../utils/constants/gallery/items';
 

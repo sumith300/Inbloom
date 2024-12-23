@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 const GalleryModal = ({ item, onClose }) => {
   useEffect(() => {
@@ -59,6 +60,15 @@ const GalleryModal = ({ item, onClose }) => {
       </motion.div>
     </motion.div>
   );
+};
+GalleryModal.propTypes = {
+  item: PropTypes.shape({
+    type: PropTypes.string.isRequired,
+    src: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  }).isRequired,
+  onClose: PropTypes.func.isRequired,
 };
 
 export default GalleryModal; 
