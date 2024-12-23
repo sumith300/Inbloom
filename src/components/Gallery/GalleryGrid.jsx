@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import GalleryItem from './GalleryItem';
 import { useModal } from '../../hooks/useModal';
-import GalleryModal from './GalleryModal';
+import GalleryModal from './GalleryModal.jsx';
 
 const GalleryGrid = ({ items }) => {
   const { selectedItem, openModal, closeModal } = useModal();

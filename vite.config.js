@@ -8,12 +8,14 @@
 import { defineConfig } from 'vite';
 import path from 'path';
 import react from '@vitejs/plugin-react'
+import resolve from '@rollup/plugin-node-resolve';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(),resolve()],
+extensions: ['.js', '.jsx', '.ts', '.tsx'],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@components': path.resolve(__dirname, 'src/components'),
     },
   },
 });
