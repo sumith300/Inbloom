@@ -1,6 +1,7 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { events, eventCategories } from '../utils/constants';
+import { eventCategories } from '../utils/constants/event/categories';
+import { events } from '../utils/constants/event/events';
 import { useNavigate } from 'react-router-dom';
 import LazyImage from '../components/common/LazyImage';
 

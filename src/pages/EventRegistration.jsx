@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { events } from '../utils/constants';
+import { events } from '../utils/constants/event/events';
 
 const EventRegistration = () => {
   const { eventId } = useParams();

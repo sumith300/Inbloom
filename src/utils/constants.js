@@ -1,234 +1,353 @@
 export const PLACEHOLDER_IMAGE = '/src/assets/images/common/placeholder.jpg';
 
-export const galleryItems = [
-  {
-    type: 'image',
-    src: '/assets/images/gallery/cultural/dance.jpg',
-    thumbnail: '/assets/images/gallery/cultural/dance-thumb.jpg',
-    title: 'Dance Performance',
-    description: 'Annual dance competition finals 2023',
-    category: 'Cultural'
-  },
-  {
-    type: 'image',
-    src: '/assets/images/gallery/technical/hackathon.jpg',
-    thumbnail: '/assets/images/gallery/technical/hackathon-thumb.jpg',
-    title: 'Hackathon 2023',
-    description: '24-hour coding competition',
-    category: 'Technical'
-  },
-  {
-    type: 'image',
-    src: '/assets/images/gallery/sports/cricket.jpg',
-    thumbnail: '/assets/images/gallery/sports/cricket-thumb.jpg',
-    title: 'Cricket Tournament',
-    description: 'Inter-college cricket finals',
-    category: 'Sports'
-  },
-  {
-    type: 'video',
-    src: 'https://www.youtube.com/embed/YOUR_VIDEO_ID',
-    thumbnail: '/assets/images/gallery/workshops/ai-workshop-thumb.jpg',
-    title: 'AI Workshop',
-    description: 'Machine Learning workshop by industry experts',
-    category: 'Workshops'
-  },
-  // Add more items as needed
-];
-
-export const categories = ['All', 'Cultural', 'Technical', 'Sports', 'Workshops'];
-
 const getPlaceholderImage = (id) => `https://i.pravatar.cc/300?img=${id}`;
+
+export const teamCategories = [
+  'Core Team',
+  'Event management',
+  'Executive',
+  'Engagement',
+  'Sponsorship',
+  'Promotions',
+  'Website',
+];
 
 export const teamMembers = [
   {
     id: 1,
-    name: 'John Doe',
-    role: 'Event Coordinator',
+    name: 'Vishal Raiyani',
+    role: 'Event Management',
     category: 'Core Team',
-    image: getPlaceholderImage(1),
-    description: 'Leading the team with innovative ideas and strategic planning.',
-    quote: 'Creating memories that last a lifetime'
+    image: 'src/assets/images/Team/Vishalraiyani1.JPG',
+    description: 'Part of the Core Team handling overall event management.',
+    quote: 'Efficiency is the key to success.',
   },
   {
     id: 2,
-    name: 'Sarah Smith',
-    role: 'Technical Lead',
-    category: 'Technical Team',
-    email: 'sarah.smith@christ.in',
-    phone: '+91 98765 43211',
-    image: getPlaceholderImage(2)
+    name: 'Tina Josmon',
+    role: 'Design and Creative',
+    category: 'Core Team',
+    image: 'src/assets/images/Team/TinaJosmon1.JPG',
+    description: 'Leading design and creative efforts for the event.',
   },
   {
     id: 3,
-    name: 'Raj Kumar',
-    role: 'Cultural Head',
-    category: 'Cultural Team',
-    email: 'raj.kumar@christ.in',
-    phone: '+91 98765 43212',
-    image: getPlaceholderImage(3)
+    name: 'Nigel Mondal',
+    role: 'Logistics',
+    category: 'Core Team',
+    image: 'src/assets/images/Team/Nigel.JPG',
+    description: 'Ensuring smooth logistics for all aspects of the event.',
   },
   {
     id: 4,
-    name: 'Priya Patel',
-    role: 'Marketing Head',
-    category: 'Marketing Team',
-    email: 'priya.patel@christ.in',
-    phone: '+91 98765 43213',
-    image: getPlaceholderImage(4)
+    name: 'Akshit Jassuja',
+    role: 'Promotions',
+    category: 'Core Team',
+    image: 'src/assets/images/Team/AkshitJassuja4.JPG',
+    description: 'Managing promotions and outreach.',
   },
   {
     id: 5,
-    name: 'Alex Chen',
-    role: 'Design Lead',
-    category: 'Design Team',
-    email: 'alex.chen@christ.in',
-    phone: '+91 98765 43214',
-    image: getPlaceholderImage(5)
-  }
+    name: 'Evelyn Tessy Emmanuel',
+    role: 'Sponsorship',
+    category: 'Core Team',
+    image: 'src/assets/images/Team/Evelyn.jpg',
+    description: 'Securing sponsorships and partnerships.',
+  },
+  {
+    id: 6,
+    name: 'Maanya Varma',
+    role: 'Cultural Secretary',
+    category: 'Core Team',
+    image: 'src/assets/images/Team/Maanya.jpg',
+    description: 'Overseeing cultural activities.',
+  },
+  {
+    id: 7,
+    name: 'Dharani R Pillutla',
+    role: 'Cultural Secretary',
+    category: 'Core Team',
+    image: 'src/assets/images/Team/EvelynTessyEmmanuel5.JPG',
+    description: 'Assisting in managing cultural events.',
+  },
+  {
+    id: 8,
+    name: 'Ann Denny Peter',
+    role: 'Stage Head',
+    category: 'Event management',
+    image: 'src/assets/images/Team/Ann Denny Peter _2.JPG',
+  },
+  {
+    id: 9,
+    name: 'Anna Mariam Prince',
+    role: 'Stage Head',
+    category: 'Event management',
+    image: 'src/assets/images/Team/Anna Mariam Prince _2.JPG',
+  },
+  {
+    id: 10,
+    name: 'Rohini K',
+    role: 'Art Head',
+    category: 'Event management',
+    image: 'src/assets/images/Team/Rohini K 2.JPG',
+  },
+  {
+    id: 11,
+    name: 'Archita kumari',
+    role: 'Art Head',
+    category: 'Event Management',
+    image: 'src/assets/images/Team/Archita Kumari 1.JPG',
+  },
+  {
+    id: 12,
+    name: 'Atrayee Banerjee',
+    role: 'Art Head',
+    category: 'Event Management',
+    image: 'src/assets/images/Team/Atrayee.JPG',
+  },
+  {
+    id: 13,
+    name: 'Divyata Rohra',
+    role: 'Literary Head',
+    category: 'Event management',
+    image: getPlaceholderImage(13),
+  },
+  {
+    id: 14,
+    name: 'Shruti Sinha',
+    role: 'Audi Head',
+    category: 'Executive',
+    image: 'src/assets/images/Team/Shruti Sinha_2.JPG',
+  },
+  {
+    id: 15,
+    name: 'Varshita G',
+    role: 'Hospitality Head',
+    category: 'Executive',
+    image: 'src/assets/images/Team/Varshita G 2.JPG',
+  },
+  {
+    id: 16,
+    name: 'Bhoomi Kansal',
+    role: 'Records Head',
+    category: 'Executive',
+    image: 'src/assets/images/Team/Bhoomi Kansal_1.JPG',
+  },
+  {
+    id: 17,
+    name: 'Keerthi Santosh',
+    role: 'Creative Head',
+    category: 'Engagement',
+    image: 'src/assets/images/Team/Keerthi 2.JPG',
+  },
+  {
+    id: 18,
+    name: 'Mufti Sauleh',
+    role: 'Media Head',
+    category: 'Engagement',
+    image: 'src/assets/images/Team/Sauleh_1.JPG',
+  },
+  {
+    id: 19,
+    name: 'Joel Cherian Varghese',
+    role: 'Emcee Head',
+    category: 'Engagement',
+    image: getPlaceholderImage(19),
+  },
+  {
+    id: 20,
+    name: 'Ananya Shanbhag',
+    role: 'Dance Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Ananya Shanbhag_2.JPG',
+  },
+  {
+    id: 21,
+    name: 'Darsh Jain',
+    role: 'Dance Secretary',
+    category: 'Event management',
+    image: 'src/assets/images/Team/Darsh Jain_1.jpeg',
+  },
+  {
+    id: 22,
+    name: 'Ishaan Dhuria',
+    role: 'Dance Secretary',
+    category: 'Event management',
+    image: 'src/assets/images/Team/Ishaan Dhuria_1.JPG',
+  },
+  {
+    id: 23,
+    name: 'Sakshi Maghodaria',
+    role: 'Art Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/SAKSHI MADHOGARIA.JPG',
+  },
+  {
+    id: 24,
+    name: 'Garv Madan',
+    role: 'Art Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Garv Photo (2).JPG',
+  },
+  {
+    id: 25,
+    name: 'Pranav Sajith',
+    role: 'Literary Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Pranav Sajith .JPG',
+  },
+  {
+    id: 26,
+    name: 'Meera Salil',
+    role: 'Music Secretary',
+    category: 'Secretaries',
+    image: getPlaceholderImage(26),
+  },
+  {
+    id: 27,
+    name: 'Paarth Maheshwari',
+    role: 'Theatre Secretary',
+    category: 'Secretaries',
+    image: getPlaceholderImage(27),
+  },
+  {
+    id: 28,
+    name: 'Parthiv Ghosh',
+    role: 'Esports Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Parthiv Ghosh_2.JPG',
+  },
+  {
+    id: 29,
+    name: 'Jitmanyu Nair',
+    role: 'Esports Secretary',
+    category: 'Event management',
+    image: 'src/assets/images/Team/JITMANYU NAIR 2.JPG',
+  },
+  {
+    id: 30,
+    name: 'Kamisetty Akshara',
+    role: 'Esports Secretary',
+    category: 'Event management',
+    image: 'src/assets/images/Team/Kamisetty Akshara _2.JPG',
+  },
+  {
+    id: 31,
+    name: 'Keerthana P',
+    role: 'Esports Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Keerthana.JPG',
+  },
+  {
+    id: 32,
+    name: 'Keerthi Santosh',
+    role: 'Esports Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Keerthana.JPG',
+  },
+  {
+    id: 33,
+    name: 'Keerthi Santosh',
+    role: 'Esports Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Keerthi 2.JPG',
+  },
+  {
+    id: 34,
+    name: 'NEVIL GEORGE NINAN',
+    role: 'Esports Secretary',
+    category: 'Engagement',
+    image: 'src/assets/images/Team/Nevil_1.JPG',
+  },
+  {
+    id: 35,
+    name: 'Pavan K S',
+    role: 'Esports Secretary',
+    category: 'Engagement',
+    image: 'src/assets/images/Team/Pavan K S _2.JPG',
+  },
+  {
+    id: 36,
+    name: 'Pavan K S',
+    role: 'Esports Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Pavan K S _2.JPG',
+  },
+  {
+    id: 37,
+    name: 'Sayatani Banerjee',
+    role: 'Esports Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Sayantani.JPG',
+  },
+  {
+    id: 38,
+    name: 'Shruti sinha',
+    role: 'Esports Secretary',
+    category: 'Secretaries',
+    image: 'src/assets/images/Team/Shruti Sinha_2.JPG',
+  },
+  {
+    id: 39,
+    name: 'Titir Sinha',
+    role: 'Esports Secretary',
+    category: 'Engagement',
+    image: 'src/assets/images/Team/TITIR SINHA_2.JPG',
+  },
+  {
+    id: 40,
+    name: 'Treesa Alex',
+    role: 'Esports Secretary',
+    category: 'Engagement',
+    image: 'src/assets/images/Team/Treesa Alex 2.JPG',
+  },
+  {
+    id: 41,
+    name: 'Yashika P Reddy',
+    role: 'Esports Secretary',
+    category: 'Engagement',
+    image: 'src/assets/images/Team/Yashika P Reddy.JPG',
+  },
+  {
+    id: 42,
+    name: 'Johan Dax',
+    role: 'Esports Secretary',
+    category: 'Engagement',
+    image: getPlaceholderImage(30) ,
+  },
+  {
+    id: 43,
+    name: 'Annliya Sangeeth',
+    role: 'Esports Secretary',
+    category: 'Event management',
+    image: 'src/assets/images/Team/ANNLIYA.JPG',
+  },
+  {
+    id: 44,
+    name: 'Akansha Dey',
+    role: 'Esports Secretary',
+    category: 'Event management',
+    image: getPlaceholderImage(12),
+  },
+  {
+    id: 45,
+    name: 'Tushar Ghosh',
+    role: 'Web Developer',
+    category: 'Website',
+    image: 'src/assets/images/Team/tushar.jpeg' ,
+  },
+  {
+    id: 46,
+    name: 'Sumith meena',
+    role: 'Web Devloper',
+    category: 'Core Team',
+    image: 'src/assets/images/Team/sumith.jpeg' ,
+  },
+  {
+    id: 47,
+    name: 'Shrey Jain',
+    role: 'Web Developer',
+    category: 'Website',
+    image: 'src/assets/images/Team/shrey.webp',
+  },
 ];
-
-export const teamCategories = [
-  'Core Team',
-  'Technical Team',
-  'Cultural Team',
-  'Marketing Team',
-  'Design Team'
-];
-
-export const events = [
-  {
-    id: 1,
-    title: 'Dance Competition',
-    category: 'Cultural',
-    formType: 'cultural',
-    date: '15th Jan, 2024',
-    time: '10:00 AM',
-    venue: 'Main Auditorium',
-    image: '/images/events/cultural/dance.jpg',
-    description: 'Showcase your dance talent across various styles - Classical, Contemporary, and Western.',
-    prizePool: '₹50,000',
-    registrationFee: '₹500 per team',
-    teamSize: '4-6',
-    rules: [
-      'Time limit: 5-7 minutes',
-      'Any dance form is allowed',
-      'Pre-recorded music required',
-      'Props are allowed'
-    ],
-    coordinators: [
-      {
-        name: 'Sarah Johnson',
-        phone: '+91 98765 43210',
-        email: 'sarah.j@christ.in'
-      }
-    ]
-  },
-  {
-    id: 2,
-    title: 'Theatre Workshop',
-    category: 'Theatre',
-    formType: 'theatre',
-    date: '15th Jan, 2024',
-    time: '9:00 AM',
-    venue: 'Computer Lab Block',
-    image: '/images/events/technical/hackathon.jpg',
-    description: '24-hour coding competition to solve real-world problems.',
-    prizePool: '₹1,00,000',
-    registrationFee: '₹1000 per team',
-    teamSize: '2-4',
-    rules: [
-      '24-hour continuous event',
-      'Own laptops required',
-      'Internet will be provided',
-      'Original solutions only'
-    ],
-    coordinators: [
-      {
-        name: 'Alex Kumar',
-        phone: '+91 98765 43211',
-        email: 'alex.k@christ.in'
-      }
-    ]
-  },
-  {
-    id: 3,
-    title: 'Cricket Tournament',
-    category: 'Sports',
-    date: '16th Jan, 2024',
-    time: '8:00 AM',
-    venue: 'College Ground',
-    image: '/images/events/sports/cricket.jpg',
-    description: 'Inter-college cricket tournament.',
-    prizePool: '₹75,000',
-    registrationFee: '₹2000 per team',
-    teamSize: '11-15',
-    rules: [
-      '15 overs per innings',
-      'ICC rules apply',
-      'Team uniform mandatory',
-      'Maximum 4 substitutes allowed'
-    ],
-    coordinators: [
-      {
-        name: 'Rahul Singh',
-        phone: '+91 98765 43212',
-        email: 'rahul.s@christ.in'
-      }
-    ]
-  },
-  {
-    id: 4,
-    title: 'AI Workshop',
-    category: 'Workshops',
-    date: '17th Jan, 2024',
-    time: '10:00 AM',
-    venue: 'Seminar Hall',
-    image: '/images/events/workshops/ai-workshop.jpg',
-    description: 'Learn about the latest trends in Artificial Intelligence and Machine Learning.',
-    prizePool: 'Certificates',
-    registrationFee: '₹500 per person',
-    teamSize: '1',
-    rules: [
-      'Laptop required',
-      'Basic Python knowledge needed',
-      'Installation guide will be provided',
-      'Hands-on sessions included'
-    ],
-    coordinators: [
-      {
-        name: 'Dr. Priya Kumar',
-        phone: '+91 98765 43213',
-        email: 'priya.k@christ.in'
-      }
-    ]
-  }
-];
-
-export const eventCategories = [
-  {
-    name: 'All Events',
-    description: 'Explore all our exciting events'
-  },
-  {
-    name: 'Cultural',
-    description: 'Showcase your artistic talents'
-  },
-  {
-    name: 'Technical',
-    description: 'Test your technical skills'
-  },
-  {
-    name: 'Sports',
-    description: 'Compete in various sports'
-  },
-  {
-    name: 'Workshops',
-    description: 'Learn from industry experts'
-  }
-];
-
-export const REGISTRATION_FORMS = {
-  cultural: 'https://docs.google.com/forms/d/e/1FAIpQLSfm9jsMpryscocTq6XYwu0kEJE4WsVx7HiP2vTzzmtR0hGmAA/viewform',
-  theatre: 'https://docs.google.com/forms/d/e/1FAIpQLSebTsxp1-G3v-eOKu6xOC9AgbJlJSY6sSSKnVcNjLy2C4bUkw/viewform'
-};

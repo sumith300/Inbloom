@@ -1,0 +1,1 @@
+export const categories = ['All', 'Agam', 'Art', 'Music', 'Procession','LIT','Theatre'];
