@@ -1,8 +1,8 @@
 export const galleryItems = [
   {
     type: 'image',
-    src: '/assets/images/gallery/cultural/AGAM1.JPG',
-    thumbnail: '/assets/images/gallery/cultural/AGAM1.JPG',
+    src: '/assets/images/gallery/cultural/AGAM1.jpg',
+    thumbnail: '/assets/images/gallery/cultural/AGAM1.jpg',
     title: 'Agam',
     description: 'Performance arts',
     category: 'Cultural'
@@ -49,57 +49,57 @@ export const galleryItems = [
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM1.JPG',
-    thumbnail: '/assets/images/gallery/agam/AGAM1.JPG',
+    src: '/assets/images/gallery/agam/AGAM1.jpg',
+    thumbnail: '/assets/images/gallery/agam/AGAM1.jpg',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM2.JPG',
-    thumbnail: '/assets/images/gallery/agam/AGAM2.JPG',
+    src: '/assets/images/gallery/agam/AGAM2.jpg',
+    thumbnail: '/assets/images/gallery/agam/AGAM2.jpg',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM3.JPG',
-    thumbnail: '/assets/images/gallery/agam/AGAM3.JPG',
+    src: '/assets/images/gallery/agam/AGAM3.jpg',
+    thumbnail: '/assets/images/gallery/agam/AGAM3.jpg',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM4.JPG',
-    thumbnail: '/assets/images/gallery/agam/AGAM4.JPG',
+    src: '/assets/images/gallery/agam/AGAM4.jpg',
+    thumbnail: '/assets/images/gallery/agam/AGAM4.jpg',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM5.JPG',
-    thumbnail: '/assets/images/gallery/agam/AGAM5.JPG',
+    src: '/assets/images/gallery/agam/AGAM5.jpg',
+    thumbnail: '/assets/images/gallery/agam/AGAM5.jpg',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM6.JPG',
-    thumbnail: '/assets/images/gallery/agam/AGAM6.JPG',
+    src: '/assets/images/gallery/agam/AGAM6.jpg',
+    thumbnail: '/assets/images/gallery/agam/AGAM6.jpg',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM7.JPG',
-    thumbnail: '/assets/images/gallery/agam/AGAM7.JPG',
+    src: '/assets/images/gallery/agam/AGAM7.jpg',
+    thumbnail: '/assets/images/gallery/agam/AGAM7.jpg',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM8.JPG',
-    thumbnail: '/assets/images/gallery/agam/AGAM8.JPG',
+    src: '/assets/images/gallery/agam/AGAM8.jpg',
+    thumbnail: '/assets/images/gallery/agam/AGAM8.jpg',
     title: 'Agam',
     category: 'Agam'
   },
