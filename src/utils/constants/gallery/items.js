@@ -49,519 +49,519 @@ export const galleryItems = [
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM1.jpg',
-    thumbnail: '/assets/images/gallery/agam/AGAM1.jpg',
+    src: '/assets/images/gallery/agam/AGAM1.webp',
+    thumbnail: '/assets/images/gallery/agam/AGAM1.webp',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM2.jpg',
-    thumbnail: '/assets/images/gallery/agam/AGAM2.jpg',
+    src: '/assets/images/gallery/agam/AGAM2.webp',
+    thumbnail: '/assets/images/gallery/agam/AGAM2.webp',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM3.jpg',
-    thumbnail: '/assets/images/gallery/agam/AGAM3.jpg',
+    src: '/assets/images/gallery/agam/AGAM3.webp',
+    thumbnail: '/assets/images/gallery/agam/AGAM3.webp',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM4.jpg',
-    thumbnail: '/assets/images/gallery/agam/AGAM4.jpg',
+    src: '/assets/images/gallery/agam/AGAM4.webp',
+    thumbnail: '/assets/images/gallery/agam/AGAM4.webp',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM5.jpg',
-    thumbnail: '/assets/images/gallery/agam/AGAM5.jpg',
+    src: '/assets/images/gallery/agam/AGAM5.webp',
+    thumbnail: '/assets/images/gallery/agam/AGAM5.webp',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM6.jpg',
-    thumbnail: '/assets/images/gallery/agam/AGAM6.jpg',
+    src: '/assets/images/gallery/agam/AGAM6.webp',
+    thumbnail: '/assets/images/gallery/agam/AGAM6.webp',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM7.jpg',
-    thumbnail: '/assets/images/gallery/agam/AGAM7.jpg',
+    src: '/assets/images/gallery/agam/AGAM7.webp',
+    thumbnail: '/assets/images/gallery/agam/AGAM7.webp',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/agam/AGAM8.jpg',
-    thumbnail: '/assets/images/gallery/agam/AGAM8.jpg',
+    src: '/assets/images/gallery/agam/AGAM8.webp',
+    thumbnail: '/assets/images/gallery/agam/AGAM8.webp',
     title: 'Agam',
     category: 'Agam'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/art/ART1.JPG',
-    thumbnail: '/assets/images/gallery/art/ART1.JPG',
+    src: '/assets/images/gallery/art/ART1.webp',
+    thumbnail: '/assets/images/gallery/art/ART1.webp',
     title: 'Art',
     category: 'Art'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/art/ART2.JPG',
-    thumbnail: '/assets/images/gallery/art/ART2.JPG',
+    src: '/assets/images/gallery/art/ART2.webp',
+    thumbnail: '/assets/images/gallery/art/ART2.webp',
     title: 'Art',
     category: 'Art'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/art/ART3.JPG',
-    thumbnail: '/assets/images/gallery/art/ART3.JPG',
+    src: '/assets/images/gallery/art/ART3.webp',
+    thumbnail: '/assets/images/gallery/art/ART3.webp',
     title: 'Art',
     category: 'Art'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/art/ART4.JPG',
-    thumbnail: '/assets/images/gallery/art/ART4.JPG',
+    src: '/assets/images/gallery/art/ART4.webp',
+    thumbnail: '/assets/images/gallery/art/ART4.webp',
     title: 'Art',
     category: 'Art'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/art/ART5.JPG',
-    thumbnail: '/assets/images/gallery/art/ART5.JPG',
+    src: '/assets/images/gallery/art/ART5.webp',
+    thumbnail: '/assets/images/gallery/art/ART5.webp',
     title: 'Art',
     category: 'Art'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/art/ART6.JPG',
-    thumbnail: '/assets/images/gallery/art/ART6.JPG',
+    src: '/assets/images/gallery/art/ART6.webp',
+    thumbnail: '/assets/images/gallery/art/ART6.webp',
     title: 'Art',
     category: 'Art'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/art/ART7.JPG',
-    thumbnail: '/assets/images/gallery/art/ART7.JPG',
+    src: '/assets/images/gallery/art/ART7.webp',
+    thumbnail: '/assets/images/gallery/art/ART7.webp',
     title: 'Art',
     category: 'Art'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/art/ART8.JPG',
-    thumbnail: '/assets/images/gallery/art/ART8.JPG',
+    src: '/assets/images/gallery/art/ART8.webp',
+    thumbnail: '/assets/images/gallery/art/ART8.webp',
     title: 'Art',
     category: 'Art'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/art/ART9.JPG',
-    thumbnail: '/assets/images/gallery/art/ART9.JPG',
+    src: '/assets/images/gallery/art/ART9.webp',
+    thumbnail: '/assets/images/gallery/art/ART9.webp',
     title: 'Art',
     category: 'Art'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/lit/LIT1.JPG',
-    thumbnail: '/assets/images/gallery/lit/LIT1.JPG',
+    src: '/assets/images/gallery/lit/LIT1.webp',
+    thumbnail: '/assets/images/gallery/lit/LIT1.webp',
     title: 'Literature',
     category: 'LIT'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/lit/LIT2.JPG',
-    thumbnail: '/assets/images/gallery/lit/LIT2.JPG',
+    src: '/assets/images/gallery/lit/LIT2.webp',
+    thumbnail: '/assets/images/gallery/lit/LIT2.webp',
     title: 'Literature',
     category: 'LIT'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/lit/LIT3.JPG',
-    thumbnail: '/assets/images/gallery/lit/LIT3.JPG',
+    src: '/assets/images/gallery/lit/LIT3.webp',
+    thumbnail: '/assets/images/gallery/lit/LIT3.webp',
     title: 'Literature',
     category: 'LIT'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/lit/LIT4.JPG',
-    thumbnail: '/assets/images/gallery/lit/LIT4.JPG',
+    src: '/assets/images/gallery/lit/LIT4.webp',
+    thumbnail: '/assets/images/gallery/lit/LIT4.webp',
     title: 'Literature',
     category: 'LIT'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/lit/LIT5.JPG',
-    thumbnail: '/assets/images/gallery/lit/LIT5.JPG',
+    src: '/assets/images/gallery/lit/LIT5.webp',
+    thumbnail: '/assets/images/gallery/lit/LIT5.webp',
     title: 'Literature',
     category: 'LIT'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC1.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC1.JPG',
+    src: '/assets/images/gallery/music/MUSIC1.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC1.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC2.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC2.JPG',
+    src: '/assets/images/gallery/music/MUSIC2.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC2.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC3.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC3.JPG',
+    src: '/assets/images/gallery/music/MUSIC3.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC3.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC4.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC4.JPG',
+    src: '/assets/images/gallery/music/MUSIC4.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC4.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC5.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC5.JPG',
+    src: '/assets/images/gallery/music/MUSIC5.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC5.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC6.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC6.JPG',
+    src: '/assets/images/gallery/music/MUSIC6.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC6.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC7.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC7.JPG',
+    src: '/assets/images/gallery/music/MUSIC7.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC7.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC8.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC8.JPG',
+    src: '/assets/images/gallery/music/MUSIC8.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC8.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC9.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC9.JPG',
+    src: '/assets/images/gallery/music/MUSIC9.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC9.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC10.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC10.JPG',
+    src: '/assets/images/gallery/music/MUSIC10.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC10.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC11.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC11.JPG',
+    src: '/assets/images/gallery/music/MUSIC11.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC11.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC12.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC12.JPG',
+    src: '/assets/images/gallery/music/MUSIC12.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC12.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/music/MUSIC13.JPG',
-    thumbnail: '/assets/images/gallery/music/MUSIC13.JPG',
+    src: '/assets/images/gallery/music/MUSIC13.webp',
+    thumbnail: '/assets/images/gallery/music/MUSIC13.webp',
     title: 'Music',
     category: 'Music'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION1.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION1.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION1.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION1.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION2.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION2.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION2.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION2.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION3.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION3.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION3.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION3.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION4.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION4.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION4.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION4.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION5.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION5.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION5.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION5.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION6.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION6.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION6.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION6.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION7.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION7.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION7.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION7.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION8.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION8.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION8.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION8.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION9.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION9.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION9.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION9.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION10.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION10.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION10.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION10.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION11.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION11.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION11.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION11.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION12.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION12.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION12.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION12.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION13.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION13.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION13.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION13.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION14.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION14.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION14.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION14.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION15.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION15.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION15.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION15.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION16.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION16.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION16.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION16.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION17.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION17.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION17.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION17.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION18.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION18.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION18.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION18.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION19.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION19.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION19.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION19.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION20.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION20.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION20.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION20.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION21.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION21.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION21.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION21.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION22.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION22.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION22.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION22.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION23.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION23.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION23.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION23.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/procession/PROCESSION24.JPG',
-    thumbnail: '/assets/images/gallery/procession/PROCESSION24.JPG',
+    src: '/assets/images/gallery/procession/PROCESSION24.webp',
+    thumbnail: '/assets/images/gallery/procession/PROCESSION24.webp',
     title: 'Procession',
     category: 'Procession'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE1.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE1.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE1.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE1.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE3.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE3.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE3.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE3.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE5.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE5.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE5.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE5.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE7.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE7.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE7.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE7.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE9.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE9.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE9.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE9.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE11.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE11.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE11.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE11.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE13.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE13.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE13.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE13.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE15.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE15.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE15.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE15.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE17.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE17.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE17.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE17.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE19.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE19.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE19.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE19.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE24.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE24.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE24.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE24.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE25.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE25.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE25.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE25.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE26.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE26.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE26.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE26.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE27.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE27.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE27.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE27.webp',
     title: 'Theatre',
     category: 'Theatre'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/theatre/THEATRE28.JPG',
-    thumbnail: '/assets/images/gallery/theatre/THEATRE28.JPG',
+    src: '/assets/images/gallery/theatre/THEATRE28.webp',
+    thumbnail: '/assets/images/gallery/theatre/THEATRE28.webp',
     title: 'Theatre',
     category: 'Theatre'
   }

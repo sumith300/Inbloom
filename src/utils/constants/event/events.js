@@ -538,7 +538,7 @@ export const events = [
     time: '5:00 PM',
     teamSize:'3',
     venue: 'Music Hall',
-    image:'assets/images/events-images/indian-solo-singing.avif',
+    image:'assets/images/events-images/folk-solo.jpg',
     
     description: 'A solo singing competition where participants perform Indian folk or film songs, showcasing their vocal skills and creativity.',
     rules: [
