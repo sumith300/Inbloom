@@ -1,48 +1,48 @@
 export const galleryItems = [
   {
     type: 'image',
-    src: '/assets/images/gallery/cultural/AGAM1.jpg',
-    thumbnail: '/assets/images/gallery/cultural/AGAM1.jpg',
+    src: '/assets/images/gallery/cultural/AGAM1.webp',
+    thumbnail: '/assets/images/gallery/cultural/AGAM1.webp',
     title: 'Agam',
     description: 'Performance arts',
     category: 'Cultural'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/cultural/ART1.JPG',
-    thumbnail: '/assets/images/gallery/cultural/ART1.JPG',
+    src: '/assets/images/gallery/cultural/ART1.webp',
+    thumbnail: '/assets/images/gallery/cultural/ART1.webp',
     title: 'Art',
     description: 'Annual drawing competition',
     category: 'Cultural'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/cultural/MUSIC1.JPG',
-    thumbnail: '/assets/images/gallery/cultural/MUSIC1.JPG',
+    src: '/assets/images/gallery/cultural/MUSIC1.webp',
+    thumbnail: '/assets/images/gallery/cultural/MUSIC1.webp',
     title: 'Music',
     description: 'Annual Singing competition',
     category: 'Cultural'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/cultural/PROCESSION1.JPG',
-    thumbnail: '/assets/images/gallery/cultural/PROCESSION1.JPG',
+    src: '/assets/images/gallery/cultural/PROCESSION1.webp',
+    thumbnail: '/assets/images/gallery/cultural/PROCESSION1.webp',
     title: 'Procession',
     description: 'Performance arts',
     category: 'Cultural'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/cultural/THEATRE1.JPG',
-    thumbnail: '/assets/images/gallery/cultural/THEATRE1.JPG',
+    src: '/assets/images/gallery/cultural/THEATRE1.webp',
+    thumbnail: '/assets/images/gallery/cultural/THEATRE1.webp',
     title: 'Theatre',
     description: 'Performance arts',
     category: 'Cultural'
   },
   {
     type: 'image',
-    src: '/assets/images/gallery/cultural/LIT1.JPG',
-    thumbnail: '/assets/images/gallery/cultural/LIT1.JPG',
+    src: '/assets/images/gallery/cultural/LIT1.webp',
+    thumbnail: '/assets/images/gallery/cultural/LIT1.webp',
     title: 'Lit',
     description: 'Performance arts',
     category: 'Cultural'
