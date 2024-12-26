@@ -16,7 +16,7 @@ export const eventCategories = [
       "description": "Participate in vibrant music competitions and showcase your vocal or instrumental talent."
   },
   {
-      "name": "Music (Solos-Only)",
+      "name": "Music (Solo-Only)",
       "description": "Take the stage solo and mesmerize the audience with your music performance."
   },
   {

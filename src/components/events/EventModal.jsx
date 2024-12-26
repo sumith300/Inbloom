@@ -52,7 +52,12 @@ const EventModal = ({ event, onClose }) => {
     try {
       // Simulate a small delay for better UX
       await new Promise(resolve => setTimeout(resolve, 500));
-      window.open(REGISTRATION_FORMS[event.formType], '_blank');
+      const formUrl = REGISTRATION_FORMS[event.formType.toLowerCase()];
+      if (formUrl) {
+        window.open(formUrl, '_blank');
+      } else {
+        console.error('Form URL not found for category:', event.category);
+      }
     } finally {
       setIsLoading(false);
       setShowConfirmation(false);
@@ -259,4 +264,4 @@ const EventModal = ({ event, onClose }) => {
   );
 };
 
-export default EventModal; 
+export default EventModal;
