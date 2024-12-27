@@ -735,7 +735,7 @@ export const events = [
     formType: 'cultural',
     date: '25th Jan, 2025',
     time: '2:00 PM',
-    teamSize:'3',
+    teamSize:'solo',
     venue: 'PeP Stage',
     image:'assets/images/events-images/classical-solo-dance.jpeg',
     description: 'A solo dance competition featuring classical dance performances, focusing on traditional Indian art forms.',

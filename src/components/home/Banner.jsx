@@ -108,10 +108,10 @@ const Banner = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20"
         >
           {[
-            { number: '15+', label: 'Events' },
-            { number: '1000+', label: 'Participants' },
-            { number: '50+', label: 'Colleges' },
-            { number: '5L+', label: 'Prize Pool' },
+            { number: '35+', label: 'Events' },
+            { number: '500+', label: 'Participants' },
+            { number: '15+', label: 'Colleges' },
+            { number: '2L+', label: 'Prize Pool' },
           ].map((stat, index) => (
             <div key={index} className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:border-secondary/30 transition-colors duration-300">
               <h3 className="text-3xl font-bold text-secondary">{stat.number}</h3>

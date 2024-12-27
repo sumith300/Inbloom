@@ -239,13 +239,7 @@ export const teamMembers = [
     category: 'Logistics',
     image: '/assets/images/Team/Keerthana.webp',
   },
-  {
-    id: 33,
-    name: 'Keerthi Santosh',
-    role: 'Esports Secretary',
-    category: 'Secretaries',
-    image: '/assets/images/Team/Keerthi 2.webp',
-  },
+
   {
     id: 34,
     name: 'NEVIL GEORGE NINAN',
