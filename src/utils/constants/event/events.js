@@ -912,8 +912,8 @@ export const events = [
     time: '1:30 PM',
     teamSize:'Solo',
     venue: 'Sky view ,Central Block',
-    image:'assets/images/events-images/fifa.jpg',
-    description: 'A solo football simulation video game where players compete in timed matches to score goals and win the game.',
+    image:'assets/images/events-images/mono-act.webp',
+    description: 'A solo theatrical performance where a single actor portrays multiple characters or emotions to narrate a story.',
     rules: [
       'Duration: 3+1 minutes (including entry and exit).',
       'performance can be in the form of a monologue or mono-act style.',
@@ -928,7 +928,203 @@ export const events = [
       {
         name: 'Ishaan Dhuria',
         phone: '9517954576',
-        // email: 'parthiv.ghosh@bcz.christuniversity.in'
+        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+      }
+      
+    ]
+  }
+  ,{
+    id: 30,
+    title: 'Street Theatre',
+    category: 'Theatre',
+    formType: 'theatre',
+    date: '16th Jan, 2025',
+    time: '12:30 PM',
+    teamSize:'min 12 & max 20',
+    venue: 'Garden Street',
+    image:'assets/images/events-images/street-play.webp',
+    description: 'An outdoor theatrical performance that engages with audiences in public spaces, often highlighting social or political issues.',
+    rules: [
+      'Duration: 8+2 minutes (including entry and exit).',
+      'English Thematic (dialogues and narration of the play should be told only in English). Jingles and songs can be in any Indian language.',
+      '10ft is the maximum permitted height for any formations during the street play.',
+      'Vulgarity in movements and costume will NOT be entertained.',
+      'Usage of fire, sharp objects, liquid and any sort of projectile in the arena is NOT allowed.',
+      'No Government, Governmental orders, Political parties, or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial/offensive ideas will not be tolerated.',
+      'No Religious slokas, bhajans, or any verses from the scriptures can be used.'
+    ],
+    prizePool: '₹20,000 for the winner.',
+    registrationFee: '₹700 per Team',
+    coordinators: [
+      {
+        name: 'Ishaan Dhuria',
+        phone: '9517954576',
+        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+      }
+      
+    ]
+  }
+  ,{
+    id: 31,
+    title: 'Proscenium Theatre',
+    category: 'Theatre',
+    formType: 'theatre',
+    date: '15th Jan, 2025',
+    time: '12:30 PM',
+    teamSize:'max 20',
+    venue: 'KE Auditorium',
+    image:'assets/images/events-images/proscenium-theatre.webp',
+    description: 'A traditional stage setup where actors perform within a framed space, creating a clear divide between performers and the audience.',
+    rules: [
+      'Language: English/Hindi/Kannada',
+      '35+5 minutes (This includes first stage setup and last stage clearance. Teams are expected to clean and clear the stage after their performance)',
+      'Teams are allowed to do originals or adaptations with due credits.',
+      '4 chairs and 1 table will be provided. All other settings need to be brought by the performing team.',
+      '2 hanging mics, 3 floor mics, and 2 cordless mics will be provided. Any further requirement for instrument plugin etc, should be intimated 5 days before the event.',
+      'Music: Live music and the usage of instruments are allowed. Teams should bring their Laptops and Pen Drives for any projection or audio requirements.',
+      'Lights: Basic lighting will be provided. Teams will NOT be allowed to bring in external lights.',
+      'Usage of any type of powdered colors and liquid paints on stage are prohibited.',
+      'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial and offensive ideas will not be tolerated. Vulgarity in movements and costume will NOT be entertained.',
+      'Usage of fire, sharp objects, liquid and any sort of projectile on stage is NOT allowed.',
+      'Scripts need to be submitted by 9th January 2025.'
+    ],
+    prizePool: '₹20,000 for the winner.',
+    registrationFee: '₹700 per Team',
+    coordinators: [
+      {
+        name: 'Ishaan Dhuria',
+        phone: '9517954576',
+        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+      }
+      
+    ]
+  },
+  {
+    id: 32,
+    title: 'MIME TEAM',
+    category: 'Theatre',
+    formType: 'theatre',
+    date: '15th Jan, 2025',
+    time: '8:30 AM',
+    teamSize:'max 8',
+    venue: 'KE Auditorium',
+    image:'assets/images/events-images/mime-team.webp',
+    description: 'A group performance art focusing on silent storytelling using gestures, expressions, and movements.',
+    rules: [
+      'Duration: 7 + 1 mins (including stage entry and exit)',
+      'Sound: Recorded music, live music and SFX may be used on or off stage. Minimal instruments are recommended if live. Teams should submit the audio as per their requirement.',
+      'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial and offensive ideas will not be tolerated. Vulgarity in movements and costume will NOT be entertained.',
+      'Vulgarity in movements and costume will NOT be entertained. Usage of fire and water on stage is NOT allowed.',
+      'Mime Elements',
+      '1.Use of props is NOT allowed.',
+      '2.Use of narration (live or recorded) is NOT allowed.',
+      '3.Mime painting can be done as per the team’s creative choice keeping the traditional Mime elements in mind.',
+      '4.No restrictions in mime costume regarding the colors. Vulgarity and obscenity in costumes is strictly prohibited.'
+    ],
+    prizePool: '₹13,000 for the winner.',
+    registrationFee: '₹500 per Team',
+    coordinators: [
+      {
+        name: 'Ishaan Dhuria',
+        phone: '9517954576',
+        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+      }
+      
+    ]
+  }
+  ,{
+    id: 33,
+    title: 'MIME DUO',
+    category: 'Theatre',
+    formType: 'theatre',
+    date: '16th Jan, 2025',
+    time: '8:30 AM',
+    teamSize:'2',
+    venue: '911, Central Block',
+    image:'assets/images/events-images/mime.webp',
+    description: 'A two-person performance emphasizing non-verbal communication to tell a story or evoke emotions.',
+    rules: [
+      'Duration: 3 + 1 minutes',
+     'Sound: Recorded music, live music and SFX may be used on or off stage. Minimal instruments are recommended if live. Teams should submit the audio as per their requirement.',
+     'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial/offensive ideas will not be tolerated.',
+     'Vulgarity in movements and costume will NOT be entertained. Usage of fire and water on stage is NOT allowed.',
+     'Mime Elements',
+      '1.Use of props is NOT allowed.',
+      '2.Use of narration (live or recorded) is NOT allowed.',
+      '3.Mime painting can be done as per the team’s creative choice keeping the traditional Mime elements in mind.',
+      '4.No restrictions in mime costume regarding the colors. Vulgarity and obscenity in costumes is strictly prohibited.'
+    ],
+    prizePool: '₹5,000 for the winner.',
+    registrationFee: '₹200 per Team',
+    coordinators: [
+      {
+        name: 'Ishaan Dhuria',
+        phone: '9517954576',
+        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+      }
+      
+    ]
+  }
+  ,{
+    id: 34,
+    title: 'Short Play',
+    category: 'Theatre',
+    formType: 'theatre',
+    date: '17th Jan, 2025',
+    time: '8:30 AM',
+    teamSize:'2 MIN & 6 MAX',
+    venue: '911, Central Block',
+    image:'assets/images/events-images/short-play.webp',
+    description: 'A brief theatrical performance with a compact storyline and limited duration, often focusing on a single theme.',
+    rules: [
+      'Duration: 10 + 5 minutes',
+      'Language: English / Hindi / Kannada',
+      'Teams are allowed to do originals or adaptations with due credits.',
+     'Minimum props are allowed (Stage production and background set up is not allowed however situational props as per the need of the script are allowed)',
+     'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial/offensive ideas will not be tolerated.',
+     'Vulgarity in movements and costume will NOT be entertained. Usage of fire and water on stage is NOT allowed.',
+     'Usage of fire, sharp objects, liquid and any sort of projectile on stage is NOT allowed.',
+    ],
+    prizePool: '₹8,000 for the winner.',
+    registrationFee: '₹500 per Team',
+    coordinators: [
+      {
+        name: 'Ishaan Dhuria',
+        phone: '9517954576',
+        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+      }
+      
+    ]
+  },
+  {
+    id: 35,
+    title: 'Short Flim making',
+    category: 'Theatre',
+    formType: 'theatre',
+    date: '15th Jan, 2025',
+    time: '8:30 AM',
+    teamSize:'5 MIN & 15 MAX',
+    venue: 'KE Auditorium',
+    image:'assets/images/events-images/short-flim.webp',
+    description: 'The art of creating concise cinematic narratives, typically under 40 minutes, to deliver impactful stories or concepts.',
+    rules: [
+      'Duration: Minimum- 6 minutes, Maximum- 8 minutes (Intro and credits, etc should be all included in the time limit)',
+      'Language: English only (10-15% usage of regional languages is allowed based on the need of the film premise, given that subtitles are included for the same)',
+      'In addition to the theme, certain elements will be given to the members that must be included into the scenes of the film to ensure that it is entirely a new production and not a repeated one. (For eg., dialogues, props etc.)',
+      'Mobile phone-shot and camera films both are allowed.',
+      'Credits with role titles should be included in the movie (at any point, as per the team’s creativity)',
+     'Criteria for judgment broadly will be around: Editing, BGM, Minute Color Grading, Story, Script and Screenplay, Acting, and Cinematography.',
+     'Display of substances like alcohol, alcohol bottles, and smoking items like cigarettes, cigars, vapes, etc. is NOT allowed.',
+     'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial and offensive ideas will not be tolerated.',
+     'Vulgarity in movements and costume will NOT be entertained.'
+    ],
+    prizePool: '₹13,000 for the winner.',
+    registrationFee: '₹500 per Team',
+    coordinators: [
+      {
+        name: 'Ishaan Dhuria',
+        phone: '9517954576',
+        email: 'ishaan.dhuri@bcomh.christuniversity.in'
       }
       
     ]
