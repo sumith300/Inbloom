@@ -4,6 +4,10 @@ export const eventCategories = [
       "description": "Explore all our exciting events and find the ones that match your interests."
   },
   {
+    "name": "Theatre",
+    "description": "Unleash your artistic flair on stage! From captivating performances to dramatic storytelling."
+},
+  {
       "name": "Literary",
       "description": "Showcase your artistic talents through creative writing, poetry, and more."
   },

@@ -903,5 +903,34 @@ export const events = [
       }
       
     ]
+  },{
+    id: 29,
+    title: 'Mono Acting',
+    category: 'Theatre',
+    formType: 'theatre',
+    date: '17th Jan, 2025',
+    time: '1:30 PM',
+    teamSize:'Solo',
+    venue: 'Sky view ,Central Block',
+    image:'assets/images/events-images/fifa.jpg',
+    description: 'A solo football simulation video game where players compete in timed matches to score goals and win the game.',
+    rules: [
+      'Duration: 3+1 minutes (including entry and exit).',
+      'performance can be in the form of a monologue or mono-act style.',
+      'Usage of fire, sharp objects, liquid and any sort of projectile on stage is NOT allowed.',
+      'Vulgarity in movements and costume will NOT be entertained.',
+      'No Government, Governmental orders, Political parties, or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial/offensive ideas will not be tolerated.',
+      'Participants are not allowed to bring an accompanist for any instruments or music.'
+    ],
+    prizePool: '₹8,000 for the winner.',
+    registrationFee: '₹200 per participant',
+    coordinators: [
+      {
+        name: 'Ishaan Dhuria',
+        phone: '9517954576',
+        // email: 'parthiv.ghosh@bcz.christuniversity.in'
+      }
+      
+    ]
   }
   ];

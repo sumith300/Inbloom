@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import GalleryGrid from '@components/Gallery/GalleryGrid.jsx';
-import CategoryFilter from '@components/Gallery/CategoryFilter.jsx';
+import GalleryGrid from '@components/Gallery/GalleryGrid';
+import CategoryFilter from '@components/Gallery/CategoryFilter';
 import { categories } from '../utils/constants/gallery/categories';
 import { galleryItems } from '../utils/constants/gallery/items';
 
@@ -13,7 +13,6 @@ const Gallery = () => {
 
   return (
     <div className="min-h-screen bg-primary py-20">
-      {/* Page Header */}
       <div className="container mx-auto px-4 mb-12">
         <h1 className="text-4xl md:text-5xl font-display text-white mb-4">
           Gallery
@@ -23,14 +22,12 @@ const Gallery = () => {
         </p>
       </div>
 
-      {/* Category Filter */}
       <CategoryFilter
         categories={categories}
         activeCategory={activeCategory}
         onCategoryChange={setActiveCategory}
       />
 
-      {/* Gallery Grid */}
       <GalleryGrid items={filteredItems} />
     </div>
   );

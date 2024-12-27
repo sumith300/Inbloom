@@ -1,47 +1,60 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
-const LazyImage = ({ src, alt, className, placeholder = '/images/common/placeholder.jpg' }) => {
-  const [imageSrc, setImageSrc] = useState(placeholder);
-  const [imageRef, setImageRef] = useState();
+const LazyImage = ({ 
+  src, 
+  alt, 
+  className, 
+  onLoad, 
+  loading = 'lazy',
+  shape = 'square'
+}) => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [hasError, setHasError] = useState(false);
 
-  useEffect(() => {
-    let observer;
-    let didCancel = false;
+  const handleLoad = () => {
+    setIsLoading(false);
+    if (onLoad) onLoad();
+  };
 
-    if (imageRef && imageSrc === placeholder) {
-      observer = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting && !didCancel) {
-            setImageSrc(src);
-          }
-        },
-        {
-          threshold: 0.1,
-          rootMargin: '50px'
-        }
-      );
+  const handleError = () => {
+    console.error(`Failed to load image: ${src}`);
+    setHasError(true);
+    setIsLoading(false);
+  };
 
-      observer.observe(imageRef);
-    }
+  const containerClasses = `relative w-full h-full ${
+    shape === 'circle' ? 'rounded-full' : ''
+  }`;
 
-    return () => {
-      didCancel = true;
-      if (observer && imageRef) {
-        observer.unobserve(imageRef);
-      }
-    };
-  }, [src, imageSrc, imageRef, placeholder]);
+  const placeholderClasses = `absolute inset-0 ${
+    shape === 'circle' ? 'rounded-full' : ''
+  } ${isLoading ? 'animate-pulse bg-gray-200/20' : ''}`;
+
+  const errorClasses = `absolute inset-0 flex items-center justify-center ${
+    shape === 'circle' ? 'rounded-full' : ''
+  } bg-gray-200/20`;
 
   return (
-    <img
-      ref={setImageRef}
-      src={imageSrc}
-      alt={alt}
-      className={`transition-opacity duration-300 ${
-        imageSrc === placeholder ? 'opacity-50' : 'opacity-100'
-      } ${className}`}
-      loading="lazy"
-    />
+    <div className={containerClasses}>
+      <img
+        src={src}
+        alt={alt}
+        className={`${className} transition-opacity duration-300 ${
+          isLoading ? 'opacity-0' : 'opacity-100'
+        } ${shape === 'circle' ? 'rounded-full' : ''}`}
+        loading={loading}
+        onLoad={handleLoad}
+        onError={handleError}
+      />
+      {isLoading && (
+        <div className={placeholderClasses} />
+      )}
+      {hasError && (
+        <div className={errorClasses}>
+          <span className="text-gray-500 text-sm">Failed to load image</span>
+        </div>
+      )}
+    </div>
   );
 };
 
