@@ -23,7 +23,7 @@ export const events = [
         {
           name: 'Himadri Mittal',
           phone: '9352338914',
-          email: 'alex.m@christ.in'
+          email: 'himadri.mittal@baesh.christuniversity.in'
         }
       ]
     }
@@ -51,8 +51,8 @@ export const events = [
       coordinators: [
         {
           name: 'Shravani',
-          phone: '+91 98765 43218',
-          email: 'rachel.b@christ.in'
+          phone: '7683875066',
+          email: 'shravani.shreya@baesh.christuniversity.in'
         }
       ]
     }
@@ -82,7 +82,7 @@ export const events = [
         {
           name: 'Pranaw',
           phone: '7904330285',
-          email: 'sarah.j@christ.in'
+          email: 'pranaw.paramasivam@bcomh.christuniversity.in'
         }
       ]
     }
@@ -111,12 +111,12 @@ export const events = [
         {
           name: 'Sanjana ',
           phone: '6364176003',
-          email: 'jessica.t@christ.in'
+          email: 'sanjana.s@bcomafh.christuniversity.in'
         },
         {
           name: 'Anusmita',
           phone: '7980968190',
-          email: 'arjun.m@christ.in'
+          email: 'anusmita.bhattacharyya@bscbch.christuniversity.in'
         }
       ]
     },
@@ -153,12 +153,12 @@ export const events = [
         {
           name: 'Pallavi Mondal',
           phone: '6296264669',
-          email: 'priya.s@christ.in'
+          email: 'pallavi.mondal@bcomsfh.christuniversity.in'
         },
         {
           name: 'Vikram Desai',
-          phone: '+91 98765 43231',
-          email: 'vikram.d@christ.in'
+          // phone: '+91 98765 43231',
+          // email: 'vikram.d@christ.in'
         }
       ]
     },
@@ -264,12 +264,12 @@ export const events = [
       {
         name: 'Likhita M',
         phone: '9141041245',
-        email: '2 BSCDM'
+        email: 'likitha.m@bscdsmh.christuniversity.in'
       },
       {
         name: 'Yadu Nand D B ',
         phone: '8129999475',
-        email: '4 BAHP'
+        email: 'yarunand.db@bahph.christuniversity.in'
       }
     ]
   }
@@ -300,12 +300,12 @@ export const events = [
       {
         name: 'Jeeva Maria Jose',
         phone: '9495770822',
-        email: '2 BCOM F&I B'
+        email: 'jeeva.jose@bcomfih.christuniversity.in'
       },
       {
         name: 'Rishit Bhargava',
         phone: '8382909103',
-        email: '4 BCOM AFA'
+        email: 'rishit.bhargava@bcomafh.christuniversity.in'
       }
     ]
   }
@@ -336,12 +336,12 @@ export const events = [
       {
         name: 'Urfee Ayub',
         phone: '8018802780',
-        email: '2BBA A'
+        email: 'urfee.ayub@bbah.christuniversity.in'
       },
       {
         name: 'Surya Manoj',
         phone: '6362057395',
-        email: '2 BCOM F&A C'
+        email: 'surya.manoj@bcomfah.christuniversity.in'
       }
     ]
   }
@@ -371,12 +371,12 @@ export const events = [
       {
         name: 'Sofiya alphy shibu',
         phone: '7907134373',
-        email: '2 BCOM A'
+        email: 'sofiya.shibu@bcomh.christuniversity.in'
       },
       {
         name: 'Anisha M',
         phone: '9606374951',
-        email: '4 BCOM AFA'
+        email: 'anisha.m@bcomh.christuniversity.in'
       }
     ]
   }
@@ -406,12 +406,12 @@ export const events = [
       {
         name: 'Ramisha R',
         phone: '7012669229',
-        email: '2 BSC BTB'
+        email: 'ramisha.r@bscbbh.christuniversity.in'
       },
       {
         name: 'Priyadarshini G',
         phone: '7899401036',
-        email: '4 BAPECO '
+        email: 'priyadarshini.g@bapecoh.christuniversity.in'
       }
     ]
   }
@@ -443,12 +443,12 @@ export const events = [
       {
         name: 'Anna Christopher J I ',
         phone: '9880672527',
-        email: '2 BSC CM '
+        email: 'anna.christopher@bsccmh.christuniversity.in'
       },
       {
         name: 'Adwita Verma',
         phone: '7889641406',
-        email: '4BSC BTF'
+        email: 'adwita.verma@bscbfh.christuniversity.in'
       }
     ]
   }
@@ -510,7 +510,7 @@ export const events = [
       {
         name: 'Sikha',
         phone: '7205010710',
-        email: '2 BAJE'
+        email: 'sikhasmruti.sahoo@bajeh.christuniversity.in'
       }
     ]
   }
@@ -541,7 +541,7 @@ export const events = [
       {
         name: 'Tharun Reddy A',
         phone: '8618830264',
-        email: '2 BCOM FA D'
+        email: 'tharun.reddy@bcomfah.christuniversity.in'
       }
     ]
   }
@@ -573,7 +573,7 @@ export const events = [
       {
         name: 'Ishaani',
         phone: '9880868638',
-        email: '2 BACP'
+        email: 'ishaani.gambhir@bacph.christuniversity.in'
       }
     ]
   }
@@ -604,7 +604,7 @@ export const events = [
       {
         name: 'Dipti',
         phone: '8073128622',
-        email: '2 BACP'
+        email: 'diptii.singhi@bacph.christuniversity.in'
       }
     ]
   }
@@ -633,7 +633,7 @@ export const events = [
       {
         name: 'Kashik',
         phone: '8791600273',
-        email: '4 BAJE'
+        email: 'Kashik.batta@bajeh.christuniversity.in'
       }
     ]
   }
@@ -662,7 +662,7 @@ export const events = [
       {
         name: 'Shranya',
         phone: '9818444772',
-        email: '2BACP'
+        email: 'Shranya.chhabra@bacph.christuniversity.in '
       }
     ]
   }
@@ -694,7 +694,7 @@ export const events = [
       {
         name: 'Shwetal',
         phone: '7011686844',
-        email: '4 BSC BTC'
+        email: 'shwetal.malik@bscbch.christuniversity.in'
       }
     ]
   }
@@ -723,7 +723,7 @@ export const events = [
       {
         name: 'Diva Soni',
         phone: '7726845401',
-        email: '2 BSC BTB'
+        email: 'diva.soni@bscbbh.christuniversity.in'
       }
     ]
   }
@@ -753,7 +753,7 @@ export const events = [
       {
         name: 'Shivangi S',
         phone: '9148892461',
-        email: '2 BCOM AFA'
+        email: 'shivangi.s@bcomafh.christuniversity.in'
       }
     ]
   }
@@ -782,7 +782,7 @@ export const events = [
       {
         name: 'Simarpreet Kaur',
         phone: '7973631090',
-        email: '2 BCOM AFA'
+        email: 'simarpreet.kaur@bcomafh.christuniversity.in'
       }
     ]
   }
@@ -926,11 +926,15 @@ export const events = [
     registrationFee: '₹200 per participant',
     coordinators: [
       {
-        name: 'Ishaan Dhuria',
-        phone: '9517954576',
-        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+        name: 'Rounak Rajuka ',
+        phone: '8144036414',
+        email: 'rounak.rajuka@bbah.christuniversity.in'
+      },
+      {
+        name: 'Chirag R Kaundinya',
+        phone: '8762353013',
+        email: 'chirag.kaundinya@bcomh.christuniversity.in'
       }
-      
     ]
   }
   ,{
@@ -957,11 +961,15 @@ export const events = [
     registrationFee: '₹700 per Team',
     coordinators: [
       {
-        name: 'Ishaan Dhuria',
-        phone: '9517954576',
-        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+        name: 'Sania Johnson',
+        phone: '9946767288',
+        email: 'sania.johnson@bcomh.christuniversity.in'
+      },
+      {
+        name: 'Melwin John',
+        phone: '8147701622',
+        email: 'melwin.john@bcomfah.christuniversity.in'
       }
-      
     ]
   }
   ,{
@@ -992,9 +1000,14 @@ export const events = [
     registrationFee: '₹700 per Team',
     coordinators: [
       {
-        name: 'Ishaan Dhuria',
-        phone: '9517954576',
-        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+        name: 'Rounak Rajuka',
+        phone: '8144036414',
+        email: 'rounak.rajuka@bbah.christuniversity.in'
+      },
+      {
+        name: 'Mythri Mandyam Dhati ',
+        phone: '7019819796',
+        email: 'Mythri.dhati@bcomiaf.christuniversity.in'
       }
       
     ]
@@ -1025,9 +1038,14 @@ export const events = [
     registrationFee: '₹500 per Team',
     coordinators: [
       {
-        name: 'Ishaan Dhuria',
-        phone: '9517954576',
-        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+        name: 'Bhavitha Reddy L ',
+        phone: '6363335966',
+        email: 'bhavitha.l@bcomath.christuniversity.in'
+      },
+      {
+        name: 'Sai Tejas AM ',
+        phone: '8147470906',
+        email: 'sai.am@bcomiaf.christuniversity.in'
       }
       
     ]
@@ -1058,9 +1076,14 @@ export const events = [
     registrationFee: '₹200 per Team',
     coordinators: [
       {
-        name: 'Ishaan Dhuria',
-        phone: '9517954576',
-        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+        name: 'Mehak Jhunjhunwala',
+        phone: '9903941769',
+        email: 'mehak.jhunjhunwala@bcah.christuniversity.in'
+      },
+      {
+        name: 'Bhavitha Reddy L  ',
+        phone: '6363335966',
+        email: 'bhavitha.l@bcomath.christuniversity.in'
       }
       
     ]
@@ -1089,9 +1112,14 @@ export const events = [
     registrationFee: '₹500 per Team',
     coordinators: [
       {
-        name: 'Ishaan Dhuria',
-        phone: '9517954576',
-        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+        name: 'Sania Johnson ',
+        phone: '9946767288',
+        email: 'sania.johnson@bcomh.christuniversity.in'
+      },
+      {
+        name: 'Melwin John ',
+        phone: '8147701622',
+        email: 'melwin.john@bcomfah.christuniversity.in'
       }
       
     ]
@@ -1122,11 +1150,15 @@ export const events = [
     registrationFee: '₹500 per Team',
     coordinators: [
       {
-        name: 'Ishaan Dhuria',
-        phone: '9517954576',
-        email: 'ishaan.dhuri@bcomh.christuniversity.in'
+        name: 'Deepanwita Mishra',
+        phone: '9778584868',
+        email: 'deepanwita.mishra@baesh.christuniversity.in'
+      },
+      {
+        name: 'Mehak Jhunjhunwala',
+        phone: '9903941769',
+        email: 'mehak.jhunjhunwala@bcah.christuniversity.in'
       }
-      
     ]
   }
   ];
