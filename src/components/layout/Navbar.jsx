@@ -9,13 +9,20 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Update background when scrolled
       setIsScrolled(window.scrollY > 20);
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const navigationItems = [
+    { name: 'Home', href: '/' },
+    { name: 'Events', href: '/events' },
+    { name: 'Gallery', href: '/gallery' },
+    { name: 'Team', href: '/team' },
+    { name: 'Schedule', href: '/schedule' }
+  ];
 
   return (
     <nav 
@@ -37,18 +44,15 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {['/', '/events', '/gallery', '/team'].map((path) => {
-              const label = path === '/' ? 'Home' : path.slice(1).charAt(0).toUpperCase() + path.slice(2);
-              return (
-                <Link
-                  key={path}
-                  to={path}
-                  className={`nav-link ${location.pathname === path ? 'active-nav-link' : ''}`}
-                >
-                  {label}
-                </Link>
-              );
-            })}
+            {navigationItems.map((item) => (
+              <Link
+                key={item.href}
+                to={item.href}
+                className={`nav-link ${location.pathname === item.href ? 'active-nav-link' : ''}`}
+              >
+                {item.name}
+              </Link>
+            ))}
           </div>
 
           {/* Mobile Menu Button */}
@@ -81,21 +85,18 @@ const Navbar = () => {
             : 'max-h-0 opacity-0 overflow-hidden'
         }`}>
           <div className="bg-gradient-to-br from-primary to-custom-lightPurple rounded-lg shadow-xl border border-secondary/10">
-            {['/', '/events', '/gallery', '/team'].map((path) => {
-              const label = path === '/' ? 'Home' : path.slice(1).charAt(0).toUpperCase() + path.slice(2);
-              return (
-                <Link
-                  key={path}
-                  to={path}
-                  className={`block px-4 py-3 text-white hover:bg-secondary/10 transition-colors ${
-                    location.pathname === path ? 'text-secondary' : ''
-                  }`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {label}
-                </Link>
-              );
-            })}
+            {navigationItems.map((item) => (
+              <Link
+                key={item.href}
+                to={item.href}
+                className={`block px-4 py-3 text-white hover:bg-secondary/10 transition-colors ${
+                  location.pathname === item.href ? 'text-secondary' : ''
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {item.name}
+              </Link>
+            ))}
           </div>
         </div>
       </div>
