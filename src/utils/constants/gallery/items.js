@@ -659,7 +659,104 @@ export const galleryItems = [
     thumbnail: `${BASE_PATH}/theatre/THEATRE28.webp`,
     title: 'Theatre',
     category: 'Theatre'
-  }
+  },
+
+   // Dance Category
+  {
+    id: '81',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE1.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE1.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '82',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE2.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE2.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '83',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE3.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE3.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '84',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE4.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE4.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '85',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE5.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE5.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '86',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE6.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE6.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '87',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE7.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE7.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '88',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE8.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE8.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '89',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE9.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE9.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '90',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE10.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE10.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
+  {
+    id: '91',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE11.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE11.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },{
+    id: '92',
+    type: 'image',
+    src: `${BASE_PATH}/dance/DANCE12.webp`,
+    thumbnail: `${BASE_PATH}/art/DANCE12.webp`,
+    title: 'Dance',
+    category: 'Dance'
+  },
 ];
 
 

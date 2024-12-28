@@ -332,4 +332,11 @@ export const teamMembers = [
     category: 'Website',
     image: '/assets/images/Team/shrey.webp',
   },
+  {
+    id: 48,
+    name: 'Agnitra Saha',
+    role: 'Records Head',
+    category: 'Logistics',
+    image: '/assets/images/Team/Agnitra Saha Passport.webp',
+  },
 ];

@@ -256,7 +256,6 @@ export const events = [
       'Sketching paper will be provided to the participants.',
       'Participants must bring their own sketching supplies.',
       'The sketch must be completed within the allotted time limit of 1 hour 30 minutes.',
-      'Prompts will be given at the start of both prelims and finals.'
     ],
     prizePool: 'Certificates and trophies for winners.',
     registrationFee: '₹250 per participant',
@@ -269,7 +268,7 @@ export const events = [
       {
         name: 'Yadu Nand D B ',
         phone: '8129999475',
-        email: 'yarunand.db@bahph.christuniversity.in'
+        email: 'yadunand.db@bahph.christuniversity.in'
       }
     ]
   }
@@ -386,7 +385,7 @@ export const events = [
     title: 'Photography',
     category: 'Art',
     formType: 'cultural',
-    date: '25th Jan, 2025',
+    date: '24th Jan, 2025',
     time: 'Deadline 5:00 PM',
     teamSize:'Individual',
     venue: 'Online Submission',
@@ -474,7 +473,7 @@ export const events = [
       'If performing original compositions, a copy of the lyrics must be submitted during registration.'
     ],
     prizePool: 'Individual prizes for Best Original Composition, Best Vocalist, Best Guitarist, Best Keyboardist, Best Drummer, and Best Band.',
-    registrationFee: '₹500 per band',
+    registrationFee: '₹600 per band',
     coordinators: [
       {
         name: 'Jyoti Shree S',
@@ -505,7 +504,7 @@ export const events = [
       'Teams must submit the lyrics in English (if in any other language, a literal translation is required).'
     ],
     prizePool: 'Individual prizes for Best Vocalist, Best Arrangement, Best Beatboxer, and Best Overall Performance.',
-    registrationFee: '₹400 per team',
+    registrationFee: '₹600 per team',
     coordinators: [
       {
         name: 'Sikha',
@@ -536,7 +535,7 @@ export const events = [
       'The lyrics will be checked for vulgarity or profanity, and any inappropriate content will lead to disqualification.'
     ],
     prizePool: 'Individual prizes for Best Vocalist, Best Arrangement, and Best Performance.',
-    registrationFee: '₹500 per team',
+    registrationFee: '₹600 per team',
     coordinators: [
       {
         name: 'Tharun Reddy A',
