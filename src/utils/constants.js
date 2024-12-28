@@ -172,7 +172,7 @@ export const teamMembers = [
   {
     id: 22,
     name: 'Ishaan Dhuria',
-    role: 'Art Head',
+    role: 'Stage Head',
     category: 'Event management',
     image: '/assets/images/Team/Ishaan Dhuria_1.webp',
   },
@@ -321,7 +321,7 @@ export const teamMembers = [
   {
     id: 46,
     name: 'Sumith meena',
-    role: 'Web Devloper',
+    role: 'Web Developer',
     category: 'Core Team',
     image: '/assets/images/Team/sumith.webp',
   },

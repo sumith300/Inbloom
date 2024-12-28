@@ -29,7 +29,7 @@ const Home = () => {
             </h2>
             <p className="text-lg text-white mb-8">
               Step into a world where every moment becomes a story, every performance a chapter, 
-              and every participant a storyteller. InBloom 2024 invites you to be part of a narrative 
+              and every participant a storyteller. InBloom 2025 invites you to be part of a narrative 
               that celebrates creativity, culture, and connection.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">

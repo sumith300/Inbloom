@@ -1,6 +1,8 @@
 import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoadingSpinner from './components/common/LoadingSpinner';
+import ScrollToTop from './components/common/ScrollToTop';
+import SmoothScroll from './components/common/SmoothScroll';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Schedule from './pages/Schedule';
@@ -14,6 +16,7 @@ const Team = lazy(() => import('./pages/Team'));
 function App() {
   return (
     <Router>
+      <SmoothScroll />
       <div className="min-h-screen bg-primary">
         <Navbar />
         <Suspense fallback={
@@ -29,6 +32,7 @@ function App() {
             <Route path="/schedule" element={<Schedule />} />
           </Routes>
         </Suspense>
+        <ScrollToTop />
         <Footer />
       </div>
     </Router>
