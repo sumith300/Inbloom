@@ -6,8 +6,8 @@ export const events = [
       formType: 'cultural',
       date: '24th Jan, 2025',
       time: '2:00 PM',
-      venue: '906,Audi block',
-      teamSize:'Individual',
+      venue: '905,Audi block',
+      teamSize:'3 per team',
       image:'assets/images/events-images/jam.jpg',
       description: 'A one-minute challenge where participants speak on a given topic without hesitation, repetition, or deviation.',
       rules: [
@@ -17,13 +17,13 @@ export const events = [
         'Standard JAM rules apply.',
         'Multiple entries are allowed per college.'
       ],
-      prizePool: 'Certificates and trophies for winners.',
+      prizePool: 'Cash prize and certificate for winner',
       registrationFee: '₹150 per participant',
       coordinators: [
         {
           name: 'Himadri Mittal',
           phone: '9352338914',
-          email: 'himadri.mittal@baesh.christuniversity.in'
+          email: 'alex.m@christ.in'
         }
       ]
     }
@@ -35,7 +35,7 @@ export const events = [
       formType: 'cultural',
       date: '24th Jan, 2025',
       time: '2:00 PM',
-      teamSize:'Individual',
+      teamSize:'3 per team',
       venue: '908, Audi Block',
       image:'/assets/images/events-images/debate.avif',
       description: 'Participants engage in a structured, non-parliamentary style debate, defending or opposing the motion.',
@@ -46,13 +46,13 @@ export const events = [
         'Judges may provide rules specific to the final round.',
         'Judges’ decisions are final.'
       ],
-      prizePool: 'Certificates and trophies for winners.',
+      prizePool: 'Cash prize and certificate for winner',
       registrationFee: '₹200 per participant',
       coordinators: [
         {
           name: 'Shravani',
-          phone: '7683875066',
-          email: 'shravani.shreya@baesh.christuniversity.in'
+          phone: '+91 98765 43218',
+          email: 'rachel.b@christ.in'
         }
       ]
     }
@@ -76,13 +76,13 @@ export const events = [
         'Vulgar or inappropriate gestures will lead to disqualification.',
         'Maximum of 2 teams allowed per college.'
       ],
-      prizePool: 'Certificates and trophies for winners.',
+      prizePool: 'Cash prize and certificate for winner',
       registrationFee: '₹300 per team',
       coordinators: [
         {
           name: 'Pranaw',
           phone: '7904330285',
-          email: 'pranaw.paramasivam@bcomh.christuniversity.in'
+          email: 'sarah.j@christ.in'
         }
       ]
     }
@@ -105,18 +105,18 @@ export const events = [
         'Tasks include quizzes, spell bee, crosswords, heads up, extempore, turncoat, and more.',
         'Points awarded based on accuracy, creativity, speed, and adherence to task guidelines.'
       ],
-      prizePool: 'Certificates and trophies for winners.',
+      prizePool: 'Cash prize and certificate for winner',
       registrationFee: '₹450 per team',
       coordinators: [
         {
           name: 'Sanjana ',
           phone: '6364176003',
-          email: 'sanjana.s@bcomafh.christuniversity.in'
+          email: 'jessica.t@christ.in'
         },
         {
           name: 'Anusmita',
           phone: '7980968190',
-          email: 'anusmita.bhattacharyya@bscbch.christuniversity.in'
+          email: 'arjun.m@christ.in'
         }
       ]
     },
@@ -147,18 +147,18 @@ export const events = [
         'Financial plans with sources of funds and cost breakdown.',
         'Competitor analysis and USP (Unique Selling Proposition).'
       ],
-      prizePool: '₹25,000 for the winning team.',
+      prizePool: 'Cash prize and certificate for winner',
       registrationFee: '₹600 per team',
       coordinators: [
         {
           name: 'Pallavi Mondal',
           phone: '6296264669',
-          email: 'pallavi.mondal@bcomsfh.christuniversity.in'
+          email: 'priya.s@christ.in'
         },
         {
           name: 'Vikram Desai',
-          // phone: '+91 98765 43231',
-          // email: 'vikram.d@christ.in'
+          phone: '+91 98765 43231',
+          email: 'vikram.d@christ.in'
         }
       ]
     },
@@ -169,7 +169,7 @@ export const events = [
       formType: 'cultural',
       date: '25th Jan, 2025',
       time: '2:00 PM',
-      teamSize:'Individual',
+      teamSize:'3',
       venue: '901,902,903, Audi Block',
       image:'assets/images/events-images/creative-writing.png',
       description: 'An individual event to showcase creative skills through short stories, essays, or poetry, based on on-the-spot prompts.',
@@ -199,7 +199,7 @@ export const events = [
           description: 'Write a poem based on themes provided on the spot.'
         }
       ],
-      prizePool: 'Certificates and trophies for winners.',
+      prizePool: 'Cash prize and certificate for winner',
       registrationFee: '₹200 per participant',
       coordinators: [
         {
@@ -216,7 +216,7 @@ export const events = [
     formType: 'cultural',
     date: '25th Jan, 2025',
     time: '10:00 AM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: 'Assembly Hall',
     image:'assets/images/events-images/air-crash.jpg',
     description: 'An imaginative individual event where participants play a character and present a case to win the last lifejacket or lifeboat seat.',
@@ -228,7 +228,7 @@ export const events = [
       'Creativity, logic, and presentation skills will be judged.',
       'Vulgarity, inappropriate content, or failure to adhere to time limits will lead to disqualification.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹150 per participant',
     coordinators: [
       {
@@ -246,7 +246,7 @@ export const events = [
     formType: 'cultural',
     date: '24th Jan, 2025',
     time: '1:30 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: '507,Block 2',
     image:'assets/images/events-images/pencil-skecth.jpg',
     description: 'An individual event where participants create pencil or charcoal sketches based on a prompt.',
@@ -258,18 +258,18 @@ export const events = [
       'The sketch must be completed within the allotted time limit of 1 hour 30 minutes.',
       'Prompts will be given at the start of both prelims and finals.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹250 per participant',
     coordinators: [
       {
         name: 'Likhita M',
         phone: '9141041245',
-        email: 'likitha.m@bscdsmh.christuniversity.in'
+        email: '2 BSCDM'
       },
       {
         name: 'Yadu Nand D B ',
         phone: '8129999475',
-        email: 'yarunand.db@bahph.christuniversity.in'
+        email: '4 BAHP'
       }
     ]
   }
@@ -281,7 +281,7 @@ export const events = [
     formType: 'cultural',
     date: '24th Jan, 2025',
     time: 'Deadline 5:00 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: 'Online Submission',
     image:'assets/images/events-images/reel-making.webp',
     description: 'An individual event where participants create short reels with basic editing and voiceovers, following a given theme.',
@@ -294,18 +294,18 @@ export const events = [
       'Reels must be shot within the campus premises.',
       'Explicit, vulgar, or plagiarized content will lead to disqualification.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹200 per participant',
     coordinators: [
       {
         name: 'Jeeva Maria Jose',
         phone: '9495770822',
-        email: 'jeeva.jose@bcomfih.christuniversity.in'
+        email: '2 BCOM F&I B'
       },
       {
         name: 'Rishit Bhargava',
         phone: '8382909103',
-        email: 'rishit.bhargava@bcomafh.christuniversity.in'
+        email: '4 BCOM AFA'
       }
     ]
   }
@@ -318,7 +318,7 @@ export const events = [
     formType: 'cultural',
     date: '24th Jan, 2025',
     time: '1:30 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: '506,Block 2',
     image:'assets/images/events-images/painting.jpg',
     description: 'An individual event to showcase creativity by painting based on a theme provided on the spot.',
@@ -330,18 +330,18 @@ export const events = [
       'Paintings must be original and not previously published elsewhere.',
       'Vulgar or inappropriate content will lead to disqualification.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹300 per participant',
     coordinators: [
       {
         name: 'Urfee Ayub',
         phone: '8018802780',
-        email: 'urfee.ayub@bbah.christuniversity.in'
+        email: '2BBA A'
       },
       {
         name: 'Surya Manoj',
         phone: '6362057395',
-        email: 'surya.manoj@bcomfah.christuniversity.in'
+        email: '2 BCOM F&A C'
       }
     ]
   }
@@ -353,7 +353,7 @@ export const events = [
     formType: 'cultural',
     date: '25th Jan, 2025',
     time: '1:30 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: '505,Block 2',
     image:'assets/images/events-images/pot-art.jpg',
     description: 'An individual event where participants decorate pots creatively based on a theme provided on the spot.',
@@ -365,18 +365,18 @@ export const events = [
       'Participants must bring their own non-restricted decorating supplies.',
       'Entries must be original and adhere to the theme.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹250 per participant',
     coordinators: [
       {
         name: 'Sofiya alphy shibu',
         phone: '7907134373',
-        email: 'sofiya.shibu@bcomh.christuniversity.in'
+        email: '2 BCOM A'
       },
       {
         name: 'Anisha M',
         phone: '9606374951',
-        email: 'anisha.m@bcomh.christuniversity.in'
+        email: '4 BCOM AFA'
       }
     ]
   }
@@ -388,7 +388,7 @@ export const events = [
     formType: 'cultural',
     date: '25th Jan, 2025',
     time: 'Deadline 5:00 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: 'Online Submission',
     image:'assets/images/events-images/photography.webp',
     description: 'An individual event where participants showcase their photography skills based on a theme provided prior to the event.',
@@ -400,18 +400,18 @@ export const events = [
       'Submissions must be in JPEG format.',
       'Entries must be original, and photos must adhere to the theme.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹200 per participant',
     coordinators: [
       {
         name: 'Ramisha R',
         phone: '7012669229',
-        email: 'ramisha.r@bscbbh.christuniversity.in'
+        email: '2 BSC BTB'
       },
       {
         name: 'Priyadarshini G',
         phone: '7899401036',
-        email: 'priyadarshini.g@bapecoh.christuniversity.in'
+        email: '4 BAPECO '
       }
     ]
   }
@@ -423,7 +423,7 @@ export const events = [
     formType: 'cultural',
     date: '24th Jan, 2025',
     time: 'Deadline 5:00 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: 'Online Submission',
     image:'assets/images/events-images/logo-design.png',
     description: 'An individual event where participants create a logo based on a theme announced three days prior to the event.',
@@ -437,18 +437,18 @@ export const events = [
       'The design must be colorful, no grayscale or black-and-white logos are allowed.',
       'Each submission must include a brief write-up (max 150 words) explaining the theme and concept behind the logo.'
     ],
-    prizePool: 'Certificates, trophies, and the opportunity for the winning logo to be used for future branding.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹350 per participant',
     coordinators: [
       {
         name: 'Anna Christopher J I ',
         phone: '9880672527',
-        email: 'anna.christopher@bsccmh.christuniversity.in'
+        email: '2 BSC CM '
       },
       {
         name: 'Adwita Verma',
         phone: '7889641406',
-        email: 'adwita.verma@bscbfh.christuniversity.in'
+        email: '4BSC BTF'
       }
     ]
   }
@@ -460,7 +460,7 @@ export const events = [
     formType: 'cultural',
     date: '25th Jan, 2025',
     time: '5:00 PM',
-    teamSize:'Min 5 & max 10',
+    teamSize:'3',
     venue: 'New Basketball Court',
     image:'assets/images/events-images/battle-band.png',
     description: 'A Western music competition where bands perform their original compositions or covers to compete for the title.',
@@ -473,7 +473,7 @@ export const events = [
       'At least one vocalist is required, with a maximum of three vocalists per band.',
       'If performing original compositions, a copy of the lyrics must be submitted during registration.'
     ],
-    prizePool: 'Individual prizes for Best Original Composition, Best Vocalist, Best Guitarist, Best Keyboardist, Best Drummer, and Best Band.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹500 per band',
     coordinators: [
       {
@@ -491,7 +491,7 @@ export const events = [
     formType: 'cultural',
     date: '24th Jan, 2025',
     time: '10:00 AM',
-    teamSize:'Min 5 & max 10',
+    teamSize:'3',
     venue: 'KE Auditorium',
     image:'assets/images/events-images/beatbox.jpg',
     description: 'A group music competition where participants perform without any instrumental accompaniment, showcasing their vocal harmony and creativity.',
@@ -504,13 +504,13 @@ export const events = [
       'The team must perform their own arrangement of the songs.',
       'Teams must submit the lyrics in English (if in any other language, a literal translation is required).'
     ],
-    prizePool: 'Individual prizes for Best Vocalist, Best Arrangement, Best Beatboxer, and Best Overall Performance.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹400 per team',
     coordinators: [
       {
         name: 'Sikha',
         phone: '7205010710',
-        email: 'sikhasmruti.sahoo@bajeh.christuniversity.in'
+        email: '2 BAJE'
       }
     ]
   }
@@ -522,7 +522,7 @@ export const events = [
     formType: 'cultural',
     date: '25th Jan, 2025',
     time: '1:30 PM',
-    teamSize:'Min 5 & max 10',
+    teamSize:'3',
     venue: 'New Basketball Court',
     image:'assets/images/events-images/indian-group.jpg',
     description: 'A group performance event where participants perform Indian songs, showcasing their vocal and instrumental talent in various Indian languages.',
@@ -535,13 +535,13 @@ export const events = [
       'No growling or pre-recorded music/sound samples are allowed.',
       'The lyrics will be checked for vulgarity or profanity, and any inappropriate content will lead to disqualification.'
     ],
-    prizePool: 'Individual prizes for Best Vocalist, Best Arrangement, and Best Performance.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹500 per team',
     coordinators: [
       {
         name: 'Tharun Reddy A',
         phone: '8618830264',
-        email: 'tharun.reddy@bcomfah.christuniversity.in'
+        email: '2 BCOM FA D'
       }
     ]
   }
@@ -553,7 +553,7 @@ export const events = [
     formType: 'cultural',
     date: '24th Jan, 2025',
     time: '2:00 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: '911, central block',
     image:'assets/images/events-images/folk-solo.jpg',
     
@@ -567,13 +567,13 @@ export const events = [
       'Participants must adhere to the time limit; exceeding it will result in disqualification.',
       'Lyrics must be free from vulgarity or profanity.'
     ],
-    prizePool: 'Certificates and trophies for winners, with a special award for Best Vocalist.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹200 per participant',
     coordinators: [
       {
         name: 'Ishaani',
         phone: '9880868638',
-        email: 'ishaani.gambhir@bacph.christuniversity.in'
+        email: '2 BACP'
       }
     ]
   }
@@ -585,7 +585,7 @@ export const events = [
     formType: 'cultural',
     date: '24th Jan, 2025',
     time: '2:00 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: 'Baskketball court',
     image:'assets/images/events-images/indian-folk-solo.webp',
     description: 'A solo singing competition where participants perform Western songs, showcasing their vocal range, expression, and musicality.',
@@ -598,13 +598,13 @@ export const events = [
       'Participants must adhere to the time limit; exceeding it will result in disqualification.',
       'Lyrics must be free from vulgarity or profanity.'
     ],
-    prizePool: 'Certificates and trophies for winners, with a special award for Best Vocalist.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹200 per participant',
     coordinators: [
       {
         name: 'Dipti',
         phone: '8073128622',
-        email: 'diptii.singhi@bacph.christuniversity.in'
+        email: '2 BACP'
       }
     ]
   }
@@ -616,24 +616,24 @@ export const events = [
     formType: 'cultural',
     date: '25th Jan, 2025',
     time: '10:00 AM',
-    teamSize:'Min 7 & max 14',
+    teamSize:'3',
     venue: 'Main Auditorium',
     image:'assets/images/events-images/non-theme-group-dance.png',
     description: 'A group dance competition where teams perform without a specific theme or concept, showcasing their creative choreography.',
     rules: [
-      'Time limit: 5+1 minutes.',
+      'Teams must consist of 7-14 members.',
       'The performance time limit is 5+1 minutes (including setup and clearance time).',
       'Fusion of songs is not allowed.',
       'Vulgarity or obscenity will lead to disqualification.',
       'The judge’s decision is final and binding.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹500 per team',
     coordinators: [
       {
         name: 'Kashik',
         phone: '8791600273',
-        email: 'Kashik.batta@bajeh.christuniversity.in'
+        email: '4 BAJE'
       }
     ]
   }
@@ -656,13 +656,13 @@ export const events = [
       'Vulgarity or obscenity will lead to disqualification.',
       'The judge’s decision is final and binding.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹600 per team',
     coordinators: [
       {
         name: 'Shranya',
         phone: '9818444772',
-        email: 'Shranya.chhabra@bacph.christuniversity.in '
+        email: '2BACP'
       }
     ]
   }
@@ -674,12 +674,12 @@ export const events = [
     formType: 'cultural',
     date: '24th Jan, 2025',
     time: '10:00 AM',
-    teamSize:'Min 7 & max 14',
+    teamSize:'3',
     venue: 'Main Auditorium',
     image:'assets/images/events-images/classical-group-dance.jpg',
     description: 'A group dance competition featuring authentic classical dance performances, where the focus is on the traditional forms of Indian dance.',
     rules: [
-      
+      'Teams must consist of 7-14 members.',
       'The performance time limit is 7+1 minutes (including setup and clearance time).',
       'No fusion of songs is permitted.',
       'Authentic classical music must be used.',
@@ -688,13 +688,13 @@ export const events = [
       'Vulgarity or obscenity will lead to disqualification.',
       'The judge’s decision is final and binding.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹700 per team',
     coordinators: [
       {
         name: 'Shwetal',
         phone: '7011686844',
-        email: 'shwetal.malik@bscbch.christuniversity.in'
+        email: '4 BSC BTC'
       }
     ]
   }
@@ -706,7 +706,7 @@ export const events = [
     formType: 'cultural',
     date: '24th Jan, 2025',
     time: '1:00 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: 'Campus View',
     image:'assets/images/events-images/non-theme-solo.jpg',
     description: 'A solo dance competition where participants perform without any given theme, showcasing their dance skills.',
@@ -717,13 +717,13 @@ export const events = [
       'Vulgarity or obscenity will lead to disqualification.',
       'The judge’s decision is final and binding.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹250 per participant',
     coordinators: [
       {
         name: 'Diva Soni',
         phone: '7726845401',
-        email: 'diva.soni@bscbbh.christuniversity.in'
+        email: '2 BSC BTB'
       }
     ]
   }
@@ -733,9 +733,9 @@ export const events = [
     title: 'Classical Solo Dance',
     category: 'Dance',
     formType: 'cultural',
-    date: '24th Jan, 2025',
+    date: '25th Jan, 2025',
     time: '2:00 PM',
-    teamSize:'Individual',
+    teamSize:'3',
     venue: 'PeP Stage',
     image:'assets/images/events-images/classical-solo-dance.jpeg',
     description: 'A solo dance competition featuring classical dance performances, focusing on traditional Indian art forms.',
@@ -747,13 +747,13 @@ export const events = [
       'Vulgarity or obscenity will lead to disqualification.',
       'The judge’s decision is final and binding.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹300 per participant',
     coordinators: [
       {
         name: 'Shivangi S',
         phone: '9148892461',
-        email: 'shivangi.s@bcomafh.christuniversity.in'
+        email: '2 BCOM AFA'
       }
     ]
   }
@@ -765,7 +765,7 @@ export const events = [
     formType: 'cultural',
     date: '25th Jan, 2025',
     time: '1:00 PM',
-    teamSize:'2',
+    teamSize:'3',
     venue: 'Campus view',
     image:'assets/images/events-images/non-theme-duet.webp',
     description: 'A duet dance competition where pairs of dancers perform without a given theme, showcasing their chemistry and choreography.',
@@ -776,13 +776,13 @@ export const events = [
       'Vulgarity or obscenity will lead to disqualification.',
       'The judge’s decision is final and binding.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹400 per duo',
     coordinators: [
       {
         name: 'Simarpreet Kaur',
         phone: '7973631090',
-        email: 'simarpreet.kaur@bcomafh.christuniversity.in'
+        email: '2 BCOM AFA'
       }
     ]
   }
@@ -794,7 +794,7 @@ export const events = [
     formType: 'cultural',
     date: '12th Feb, 2025',
     time: '9:00 AM',
-    teamSize:'5',
+    teamSize:'3',
     venue: 'Gaming Hub',
     image:'assets/images/events-images/valorant.avif',
     description: 'A team-based first-person shooter game where players compete to complete objectives and eliminate the opposing team.',
@@ -805,7 +805,7 @@ export const events = [
       'Cheating, hacks, or hardware modifications are strictly prohibited.',
       'Players must be on time for their matches, and detailed instructions will be provided prior to the event.'
     ],
-    prizePool: '₹50,000 for the winning team.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹300 per player',
     coordinators: [
       {
@@ -823,7 +823,7 @@ export const events = [
     formType: 'cultural',
     date: '13th Feb, 2025',
     time: '10:00 AM',
-    teamSize:'5',
+    teamSize:'3',
     venue: 'Gaming Zone',
     image:'assets/images/events-images/cod.jpg',
     description: 'A mobile first-person shooter game where players compete in team-based modes to complete objectives and eliminate opponents.',
@@ -835,7 +835,7 @@ export const events = [
       'Players must play with their registered IDs; switching IDs during the match is not allowed.',
       'Any form of cheating or exploitation will lead to disqualification.'
     ],
-    prizePool: '₹30,000 for the winning team.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹200 per player',
     coordinators: [
       {
@@ -853,8 +853,8 @@ export const events = [
     formType: 'cultural',
     date: '14th Feb, 2025',
     time: '9:00 AM',
-    teamSize:'4',
-    venue: 'Labs Block 2',
+    teamSize:'3',
+    venue: 'Gaming Arena',
     image:'assets/images/events-images/bgmi.webp',
     description: 'A mobile battle royale game where teams compete to be the last ones standing in a shrinking map.',
     rules: [
@@ -864,7 +864,7 @@ export const events = [
       'Cheating, hacks, or any form of unfair advantage is strictly prohibited.',
       'Players must reach the venue on time, and detailed instructions will be provided prior to the event.'
     ],
-    prizePool: '₹40,000 for the winning team.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹250 per player',
     coordinators: [
       {
@@ -882,8 +882,8 @@ export const events = [
     formType: 'cultural',
     date: '15th Feb, 2025',
     time: '10:00 AM',
-    teamSize:'Individual',
-    venue: 'Labs Block 2',
+    teamSize:'3',
+    venue: 'Esports Arena',
     image:'assets/images/events-images/fifa.jpg',
     description: 'A solo football simulation video game where players compete in timed matches to score goals and win the game.',
     rules: [
@@ -893,7 +893,7 @@ export const events = [
       'Players must be present on time.',
       'Cheating or exploiting the game mechanics will result in disqualification.'
     ],
-    prizePool: '₹20,000 for the winner.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹150 per participant',
     coordinators: [
       {
@@ -910,10 +910,10 @@ export const events = [
     formType: 'theatre',
     date: '17th Jan, 2025',
     time: '1:30 PM',
-    teamSize:'Individual',
+    teamSize:'Solo',
     venue: 'Sky view ,Central Block',
-    image:'assets/images/events-images/mono-act.webp',
-    description: 'A solo theatrical performance where a single actor portrays multiple characters or emotions to narrate a story.',
+    image:'assets/images/events-images/fifa.jpg',
+    description: 'A solo football simulation video game where players compete in timed matches to score goals and win the game.',
     rules: [
       'Duration: 3+1 minutes (including entry and exit).',
       'performance can be in the form of a monologue or mono-act style.',
@@ -922,243 +922,15 @@ export const events = [
       'No Government, Governmental orders, Political parties, or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial/offensive ideas will not be tolerated.',
       'Participants are not allowed to bring an accompanist for any instruments or music.'
     ],
-    prizePool: '₹8,000 for the winner.',
+    prizePool: 'Cash prize and certificate for winner',
     registrationFee: '₹200 per participant',
     coordinators: [
       {
-        name: 'Rounak Rajuka ',
-        phone: '8144036414',
-        email: 'rounak.rajuka@bbah.christuniversity.in'
-      },
-      {
-        name: 'Chirag R Kaundinya',
-        phone: '8762353013',
-        email: 'chirag.kaundinya@bcomh.christuniversity.in'
-      }
-    ]
-  }
-  ,{
-    id: 30,
-    title: 'Street Theatre',
-    category: 'Theatre',
-    formType: 'theatre',
-    date: '16th Jan, 2025',
-    time: '12:30 PM',
-    teamSize:'min 12 & max 20',
-    venue: 'Garden Street',
-    image:'assets/images/events-images/street-play.webp',
-    description: 'An outdoor theatrical performance that engages with audiences in public spaces, often highlighting social or political issues.',
-    rules: [
-      'Duration: 8+2 minutes (including entry and exit).',
-      'English Thematic (dialogues and narration of the play should be told only in English). Jingles and songs can be in any Indian language.',
-      '10ft is the maximum permitted height for any formations during the street play.',
-      'Vulgarity in movements and costume will NOT be entertained.',
-      'Usage of fire, sharp objects, liquid and any sort of projectile in the arena is NOT allowed.',
-      'No Government, Governmental orders, Political parties, or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial/offensive ideas will not be tolerated.',
-      'No Religious slokas, bhajans, or any verses from the scriptures can be used.'
-    ],
-    prizePool: '₹20,000 for the winner.',
-    registrationFee: '₹700 per Team',
-    coordinators: [
-      {
-        name: 'Sania Johnson',
-        phone: '9946767288',
-        email: 'sania.johnson@bcomh.christuniversity.in'
-      },
-      {
-        name: 'Melwin John',
-        phone: '8147701622',
-        email: 'melwin.john@bcomfah.christuniversity.in'
-      }
-    ]
-  }
-  ,{
-    id: 31,
-    title: 'Proscenium Theatre',
-    category: 'Theatre',
-    formType: 'theatre',
-    date: '15th Jan, 2025',
-    time: '12:30 PM',
-    teamSize:'max 20',
-    venue: 'KE Auditorium',
-    image:'assets/images/events-images/proscenium-theatre.webp',
-    description: 'A traditional stage setup where actors perform within a framed space, creating a clear divide between performers and the audience.',
-    rules: [
-      'Language: English/Hindi/Kannada',
-      '35+5 minutes (This includes first stage setup and last stage clearance. Teams are expected to clean and clear the stage after their performance)',
-      'Teams are allowed to do originals or adaptations with due credits.',
-      '4 chairs and 1 table will be provided. All other settings need to be brought by the performing team.',
-      '2 hanging mics, 3 floor mics, and 2 cordless mics will be provided. Any further requirement for instrument plugin etc, should be intimated 5 days before the event.',
-      'Music: Live music and the usage of instruments are allowed. Teams should bring their Laptops and Pen Drives for any projection or audio requirements.',
-      'Lights: Basic lighting will be provided. Teams will NOT be allowed to bring in external lights.',
-      'Usage of any type of powdered colors and liquid paints on stage are prohibited.',
-      'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial and offensive ideas will not be tolerated. Vulgarity in movements and costume will NOT be entertained.',
-      'Usage of fire, sharp objects, liquid and any sort of projectile on stage is NOT allowed.',
-      'Scripts need to be submitted by 9th January 2025.'
-    ],
-    prizePool: '₹20,000 for the winner.',
-    registrationFee: '₹700 per Team',
-    coordinators: [
-      {
-        name: 'Rounak Rajuka',
-        phone: '8144036414',
-        email: 'rounak.rajuka@bbah.christuniversity.in'
-      },
-      {
-        name: 'Mythri Mandyam Dhati ',
-        phone: '7019819796',
-        email: 'Mythri.dhati@bcomiaf.christuniversity.in'
+        name: 'Ishaan Dhuria',
+        phone: '9517954576',
+        // email: 'parthiv.ghosh@bcz.christuniversity.in'
       }
       
-    ]
-  },
-  {
-    id: 32,
-    title: 'MIME TEAM',
-    category: 'Theatre',
-    formType: 'theatre',
-    date: '15th Jan, 2025',
-    time: '8:30 AM',
-    teamSize:'max 8',
-    venue: 'KE Auditorium',
-    image:'assets/images/events-images/mime-team.webp',
-    description: 'A group performance art focusing on silent storytelling using gestures, expressions, and movements.',
-    rules: [
-      'Duration: 7 + 1 mins (including stage entry and exit)',
-      'Sound: Recorded music, live music and SFX may be used on or off stage. Minimal instruments are recommended if live. Teams should submit the audio as per their requirement.',
-      'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial and offensive ideas will not be tolerated. Vulgarity in movements and costume will NOT be entertained.',
-      'Vulgarity in movements and costume will NOT be entertained. Usage of fire and water on stage is NOT allowed.',
-      'Mime Elements',
-      '1.Use of props is NOT allowed.',
-      '2.Use of narration (live or recorded) is NOT allowed.',
-      '3.Mime painting can be done as per the team’s creative choice keeping the traditional Mime elements in mind.',
-      '4.No restrictions in mime costume regarding the colors. Vulgarity and obscenity in costumes is strictly prohibited.'
-    ],
-    prizePool: '₹13,000 for the winner.',
-    registrationFee: '₹500 per Team',
-    coordinators: [
-      {
-        name: 'Bhavitha Reddy L ',
-        phone: '6363335966',
-        email: 'bhavitha.l@bcomath.christuniversity.in'
-      },
-      {
-        name: 'Sai Tejas AM ',
-        phone: '8147470906',
-        email: 'sai.am@bcomiaf.christuniversity.in'
-      }
-      
-    ]
-  }
-  ,{
-    id: 33,
-    title: 'MIME DUO',
-    category: 'Theatre',
-    formType: 'theatre',
-    date: '16th Jan, 2025',
-    time: '8:30 AM',
-    teamSize:'2',
-    venue: '911, Central Block',
-    image:'assets/images/events-images/mime.webp',
-    description: 'A two-person performance emphasizing non-verbal communication to tell a story or evoke emotions.',
-    rules: [
-      'Duration: 3 + 1 minutes',
-     'Sound: Recorded music, live music and SFX may be used on or off stage. Minimal instruments are recommended if live. Teams should submit the audio as per their requirement.',
-     'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial/offensive ideas will not be tolerated.',
-     'Vulgarity in movements and costume will NOT be entertained. Usage of fire and water on stage is NOT allowed.',
-     'Mime Elements',
-      '1.Use of props is NOT allowed.',
-      '2.Use of narration (live or recorded) is NOT allowed.',
-      '3.Mime painting can be done as per the team’s creative choice keeping the traditional Mime elements in mind.',
-      '4.No restrictions in mime costume regarding the colors. Vulgarity and obscenity in costumes is strictly prohibited.'
-    ],
-    prizePool: '₹5,000 for the winner.',
-    registrationFee: '₹200 per Team',
-    coordinators: [
-      {
-        name: 'Mehak Jhunjhunwala',
-        phone: '9903941769',
-        email: 'mehak.jhunjhunwala@bcah.christuniversity.in'
-      },
-      {
-        name: 'Bhavitha Reddy L  ',
-        phone: '6363335966',
-        email: 'bhavitha.l@bcomath.christuniversity.in'
-      }
-      
-    ]
-  }
-  ,{
-    id: 34,
-    title: 'Short Play',
-    category: 'Theatre',
-    formType: 'theatre',
-    date: '17th Jan, 2025',
-    time: '8:30 AM',
-    teamSize:'2 MIN & 6 MAX',
-    venue: '911, Central Block',
-    image:'assets/images/events-images/short-play.webp',
-    description: 'A brief theatrical performance with a compact storyline and limited duration, often focusing on a single theme.',
-    rules: [
-      'Duration: 10 + 5 minutes',
-      'Language: English / Hindi / Kannada',
-      'Teams are allowed to do originals or adaptations with due credits.',
-     'Minimum props are allowed (Stage production and background set up is not allowed however situational props as per the need of the script are allowed)',
-     'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial/offensive ideas will not be tolerated.',
-     'Vulgarity in movements and costume will NOT be entertained. Usage of fire and water on stage is NOT allowed.',
-     'Usage of fire, sharp objects, liquid and any sort of projectile on stage is NOT allowed.',
-    ],
-    prizePool: '₹8,000 for the winner.',
-    registrationFee: '₹500 per Team',
-    coordinators: [
-      {
-        name: 'Sania Johnson ',
-        phone: '9946767288',
-        email: 'sania.johnson@bcomh.christuniversity.in'
-      },
-      {
-        name: 'Melwin John ',
-        phone: '8147701622',
-        email: 'melwin.john@bcomfah.christuniversity.in'
-      }
-      
-    ]
-  },
-  {
-    id: 35,
-    title: 'Short Flim making',
-    category: 'Theatre',
-    formType: 'theatre',
-    date: '15th Jan, 2025',
-    time: '8:30 AM',
-    teamSize:'5 MIN & 15 MAX',
-    venue: 'Panel Room',
-    image:'assets/images/events-images/short-flim.webp',
-    description: 'The art of creating concise cinematic narratives, typically under 40 minutes, to deliver impactful stories or concepts.',
-    rules: [
-      'Duration: Minimum- 6 minutes, Maximum- 8 minutes (Intro and credits, etc should be all included in the time limit)',
-      'Language: English only (10-15% usage of regional languages is allowed based on the need of the film premise, given that subtitles are included for the same)',
-      'In addition to the theme, certain elements will be given to the members that must be included into the scenes of the film to ensure that it is entirely a new production and not a repeated one. (For eg., dialogues, props etc.)',
-      'Mobile phone-shot and camera films both are allowed.',
-      'Credits with role titles should be included in the movie (at any point, as per the team’s creativity)',
-     'Criteria for judgment broadly will be around: Editing, BGM, Minute Color Grading, Story, Script and Screenplay, Acting, and Cinematography.',
-     'Display of substances like alcohol, alcohol bottles, and smoking items like cigarettes, cigars, vapes, etc. is NOT allowed.',
-     'No Government, Governmental orders, Political parties or any person can be targeted directly or indirectly. Mocking of political alliances and any other controversial and offensive ideas will not be tolerated.',
-     'Vulgarity in movements and costume will NOT be entertained.'
-    ],
-    prizePool: '₹13,000 for the winner.',
-    registrationFee: '₹500 per Team',
-    coordinators: [
-      {
-        name: 'Deepanwita Mishra',
-        phone: '9778584868',
-        email: 'deepanwita.mishra@baesh.christuniversity.in'
-      },
-      {
-        name: 'Mehak Jhunjhunwala',
-        phone: '9903941769',
-        email: 'mehak.jhunjhunwala@bcah.christuniversity.in'
-      }
     ]
   }
   ];
