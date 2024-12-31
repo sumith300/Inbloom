@@ -17,8 +17,8 @@ export const events = [
       'Standard JAM rules apply.',
       'Multiple entries are allowed per college.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
-    registrationFee: '₹150 per participant',
+    prizePool: 'cash prize and certificate for winners',
+    registrationFee: '₹200 per participant',
     coordinators: [
       {
         name: 'Himadri Mittal',
@@ -46,7 +46,7 @@ export const events = [
       'Judges may provide rules specific to the final round.',
       'Judges’ decisions are final.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'cash prize and certificate for winners',
     registrationFee: '₹200 per participant',
     coordinators: [
       {
@@ -76,8 +76,8 @@ export const events = [
       'Vulgar or inappropriate gestures will lead to disqualification.',
       'Maximum of 2 teams allowed per college.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
-    registrationFee: '₹300 per team',
+    prizePool: 'cash prize and certificate for winners',
+    registrationFee: '₹400 per team',
     coordinators: [
       {
         name: 'Pranaw',
@@ -105,8 +105,8 @@ export const events = [
       'Tasks include quizzes, spell bee, crosswords, heads up, extempore, turncoat, and more.',
       'Points awarded based on accuracy, creativity, speed, and adherence to task guidelines.'
     ],
-    prizePool: 'Certificates and trophies for winners.',
-    registrationFee: '₹450 per team',
+    prizePool: 'cash prize and certificate for winners',
+    registrationFee: '₹400 per team',
     coordinators: [
       {
         name: 'Sanjana ',
@@ -147,8 +147,8 @@ export const events = [
       'Financial plans with sources of funds and cost breakdown.',
       'Competitor analysis and USP (Unique Selling Proposition).'
     ],
-    prizePool: '₹25,000 for the winning team.',
-    registrationFee: '₹600 per team',
+    prizePool: 'cash prize and certificate for winners',
+    registrationFee: '₹400 per team',
     coordinators: [
       {
         name: 'Pallavi Mondal',
@@ -199,13 +199,13 @@ export const events = [
         description: 'Write a poem based on themes provided on the spot.'
       }
     ],
-    prizePool: 'Certificates and trophies for winners.',
+    prizePool: 'cash prize and certificate for winners',
     registrationFee: '₹200 per participant',
     coordinators: [
       {
         name: 'Amy ',
         phone: '8590153571',
-        email: 'sophia.t@christ.in'
+        email: 'amyelsa.alex@bcomh.christuniversity.in'
       }
     ]
   }
@@ -228,13 +228,13 @@ export const events = [
     'Creativity, logic, and presentation skills will be judged.',
     'Vulgarity, inappropriate content, or failure to adhere to time limits will lead to disqualification.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹150 per participant',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹200 per participant',
   coordinators: [
     {
       name: 'Sanjana',
       phone: '6364176003',
-      email: 'rohit.n@christ.in'
+      email: 'sanjana.s@bcomafh.christuniversity.in'
     }
   ]
 }
@@ -256,10 +256,9 @@ export const events = [
     'Sketching paper will be provided to the participants.',
     'Participants must bring their own sketching supplies.',
     'The sketch must be completed within the allotted time limit of 1 hour 30 minutes.',
-    'Prompts will be given at the start of both prelims and finals.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹250 per participant',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹150 per participant',
   coordinators: [
     {
       name: 'Likhita M',
@@ -269,7 +268,7 @@ export const events = [
     {
       name: 'Yadu Nand D B ',
       phone: '8129999475',
-      email: 'yarunand.db@bahph.christuniversity.in'
+      email: 'yadunand.db@bahph.christuniversity.in '
     }
   ]
 }
@@ -294,8 +293,8 @@ export const events = [
     'Reels must be shot within the campus premises.',
     'Explicit, vulgar, or plagiarized content will lead to disqualification.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹200 per participant',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹150 per participant',
   coordinators: [
     {
       name: 'Jeeva Maria Jose',
@@ -330,8 +329,8 @@ export const events = [
     'Paintings must be original and not previously published elsewhere.',
     'Vulgar or inappropriate content will lead to disqualification.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹300 per participant',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹150 per participant',
   coordinators: [
     {
       name: 'Urfee Ayub',
@@ -365,8 +364,8 @@ export const events = [
     'Participants must bring their own non-restricted decorating supplies.',
     'Entries must be original and adhere to the theme.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹250 per participant',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹150 per participant',
   coordinators: [
     {
       name: 'Sofiya alphy shibu',
@@ -386,7 +385,7 @@ export const events = [
   title: 'Photography',
   category: 'Art',
   formType: 'cultural',
-  date: '25th Jan, 2025',
+  date: '24th Jan, 2025',
   time: 'Deadline 5:00 PM',
   teamSize:'Individual',
   venue: 'Online Submission',
@@ -400,8 +399,8 @@ export const events = [
     'Submissions must be in JPEG format.',
     'Entries must be original, and photos must adhere to the theme.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹200 per participant',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹150 per participant',
   coordinators: [
     {
       name: 'Ramisha R',
@@ -437,8 +436,8 @@ export const events = [
     'The design must be colorful, no grayscale or black-and-white logos are allowed.',
     'Each submission must include a brief write-up (max 150 words) explaining the theme and concept behind the logo.'
   ],
-  prizePool: 'Certificates, trophies, and the opportunity for the winning logo to be used for future branding.',
-  registrationFee: '₹350 per participant',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹150 per participant',
   coordinators: [
     {
       name: 'Anna Christopher J I ',
@@ -473,13 +472,13 @@ export const events = [
     'At least one vocalist is required, with a maximum of three vocalists per band.',
     'If performing original compositions, a copy of the lyrics must be submitted during registration.'
   ],
-  prizePool: 'Individual prizes for Best Original Composition, Best Vocalist, Best Guitarist, Best Keyboardist, Best Drummer, and Best Band.',
-  registrationFee: '₹500 per band',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹600 per band',
   coordinators: [
     {
       name: 'Jyoti Shree S',
       phone: '8431469839',
-      email: '6 BCOM A'
+      email: 'jyothi.s@bcom.christuniversity.in'
     }
   ]
 }
@@ -504,8 +503,8 @@ export const events = [
     'The team must perform their own arrangement of the songs.',
     'Teams must submit the lyrics in English (if in any other language, a literal translation is required).'
   ],
-  prizePool: 'Individual prizes for Best Vocalist, Best Arrangement, Best Beatboxer, and Best Overall Performance.',
-  registrationFee: '₹400 per team',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹600 per team',
   coordinators: [
     {
       name: 'Sikha',
@@ -535,8 +534,8 @@ export const events = [
     'No growling or pre-recorded music/sound samples are allowed.',
     'The lyrics will be checked for vulgarity or profanity, and any inappropriate content will lead to disqualification.'
   ],
-  prizePool: 'Individual prizes for Best Vocalist, Best Arrangement, and Best Performance.',
-  registrationFee: '₹500 per team',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹600 per team',
   coordinators: [
     {
       name: 'Tharun Reddy A',
@@ -567,7 +566,7 @@ export const events = [
     'Participants must adhere to the time limit; exceeding it will result in disqualification.',
     'Lyrics must be free from vulgarity or profanity.'
   ],
-  prizePool: 'Certificates and trophies for winners, with a special award for Best Vocalist.',
+  prizePool: 'cash prize and certificate for winners',
   registrationFee: '₹200 per participant',
   coordinators: [
     {
@@ -598,7 +597,7 @@ export const events = [
     'Participants must adhere to the time limit; exceeding it will result in disqualification.',
     'Lyrics must be free from vulgarity or profanity.'
   ],
-  prizePool: 'Certificates and trophies for winners, with a special award for Best Vocalist.',
+  prizePool: 'cash prize and certificate for winners',
   registrationFee: '₹200 per participant',
   coordinators: [
     {
@@ -627,8 +626,8 @@ export const events = [
     'Vulgarity or obscenity will lead to disqualification.',
     'The judge’s decision is final and binding.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹500 per team',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹600 per team',
   coordinators: [
     {
       name: 'Kashik',
@@ -656,7 +655,7 @@ export const events = [
     'Vulgarity or obscenity will lead to disqualification.',
     'The judge’s decision is final and binding.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
+  prizePool: 'cash prize and certificate for winners',
   registrationFee: '₹600 per team',
   coordinators: [
     {
@@ -688,8 +687,8 @@ export const events = [
     'Vulgarity or obscenity will lead to disqualification.',
     'The judge’s decision is final and binding.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹700 per team',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹600 per team',
   coordinators: [
     {
       name: 'Shwetal',
@@ -717,8 +716,8 @@ export const events = [
     'Vulgarity or obscenity will lead to disqualification.',
     'The judge’s decision is final and binding.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹250 per participant',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹200 per participant',
   coordinators: [
     {
       name: 'Diva Soni',
@@ -747,8 +746,8 @@ export const events = [
     'Vulgarity or obscenity will lead to disqualification.',
     'The judge’s decision is final and binding.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
-  registrationFee: '₹300 per participant',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹200 per participant',
   coordinators: [
     {
       name: 'Shivangi S',
@@ -776,7 +775,7 @@ export const events = [
     'Vulgarity or obscenity will lead to disqualification.',
     'The judge’s decision is final and binding.'
   ],
-  prizePool: 'Certificates and trophies for winners.',
+  prizePool: 'cash prize and certificate for winners',
   registrationFee: '₹400 per duo',
   coordinators: [
     {
@@ -805,8 +804,8 @@ export const events = [
     'Cheating, hacks, or hardware modifications are strictly prohibited.',
     'Players must be on time for their matches, and detailed instructions will be provided prior to the event.'
   ],
-  prizePool: '₹50,000 for the winning team.',
-  registrationFee: '₹300 per player',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹500 per team',
   coordinators: [
     {
       name: 'Parthiv Ghosh',
@@ -835,8 +834,8 @@ export const events = [
     'Players must play with their registered IDs; switching IDs during the match is not allowed.',
     'Any form of cheating or exploitation will lead to disqualification.'
   ],
-  prizePool: '₹30,000 for the winning team.',
-  registrationFee: '₹200 per player',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹500 per team',
   coordinators: [
     {
       name: 'Parthiv Ghosh',
@@ -864,8 +863,8 @@ export const events = [
     'Cheating, hacks, or any form of unfair advantage is strictly prohibited.',
     'Players must reach the venue on time, and detailed instructions will be provided prior to the event.'
   ],
-  prizePool: '₹40,000 for the winning team.',
-  registrationFee: '₹250 per player',
+  prizePool: 'cash prize and certificate for winners',
+  registrationFee: '₹400 per team',
   coordinators: [
     {
       name: 'Parthiv Ghosh',
@@ -893,7 +892,7 @@ export const events = [
     'Players must be present on time.',
     'Cheating or exploiting the game mechanics will result in disqualification.'
   ],
-  prizePool: '₹20,000 for the winner.',
+  prizePool: 'cash prize and certificate for winners',
   registrationFee: '₹150 per participant',
   coordinators: [
     {
