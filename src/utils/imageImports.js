@@ -10,4 +10,3 @@ export const eventImages = {
   aiWorkshop: aiWorkshopImage
 };
 
-// Add more image imports as needed 
