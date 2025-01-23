@@ -23,8 +23,7 @@ const Results = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary via-primary-dark to-primary-gradient pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-16 md:pb-20 relative overflow-hidden">
-      {/* Enhanced Background Pattern */}
-      <div className="absolute inset-0">
+      <div className="fixed inset-0 z-0">
         {/* Geometric Grid */}
         <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(-45deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-20"></div>
         
@@ -50,7 +49,7 @@ const Results = () => {
         }}></div>
         
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/50 via-primary/30 to-primary opacity-90"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary-dark to-primary opacity-100"></div>
       </div>
 
       {/* Content */}
