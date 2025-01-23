@@ -12,6 +12,7 @@ const Home = lazy(() => import('./pages/Home'));
 const Events = lazy(() => import('./pages/Events'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const Team = lazy(() => import('./pages/Team'));
+const Results = lazy(() => import('./pages/Results'));
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/team" element={<Team />} />
             <Route path="/schedule" element={<Schedule />} />
+            <Route path="/results" element={<Results />} />
           </Routes>
         </Suspense>
         <ScrollToTop />

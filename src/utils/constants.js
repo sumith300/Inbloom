@@ -52,7 +52,7 @@ export const teamMembers = [
     name: 'Evelyn Tessy Emmanuel',
     role: 'Sponsorship',
     category: 'Core Team',
-    image: '/assets/images/Team/Evelyn.webp',
+    image: '/assets/images/Team/evelyn.jpeg',
     description: 'Securing sponsorships and partnerships.',
   },
   {

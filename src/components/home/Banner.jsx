@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import CountdownTimer from './CountdownTimer';
+import ActiveEvents from './ActiveEvents';
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
@@ -76,27 +76,14 @@ const Banner = () => {
             </div>
           </motion.div>
 
-          {/* Countdown Container */}
+          {/* Active Events Container */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:justify-self-end w-full max-w-lg"
           >
-            <div className="bg-white/5 backdrop-blur-md rounded-2xl p-8 border border-white/10 shadow-xl">
-              <h2 className="text-2xl font-display text-center text-white mb-8">
-                Event Starts In
-              </h2>
-              <CountdownTimer targetDate="2025-01-23" />
-              <div className="mt-8 text-center">
-                <p className="text-white/90 font-medium">
-                  23rd January, 2025 • 9:00 AM
-                </p>
-                <p className="text-white/70 text-sm mt-2">
-                  Christ University, Bangalore
-                </p>
-              </div>
-            </div>
+            <ActiveEvents />
           </motion.div>
         </div>
 
@@ -127,4 +114,4 @@ const Banner = () => {
   );
 };
 
-export default Banner; 
+export default Banner;

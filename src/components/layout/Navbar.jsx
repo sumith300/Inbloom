@@ -21,7 +21,8 @@ const Navbar = () => {
     { name: 'Events', href: '/events' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Team', href: '/team' },
-    { name: 'Schedule', href: '/schedule' }
+    { name: 'Schedule', href: '/schedule' },
+    { name: 'Results', href: '/results' }
   ];
 
   return (
@@ -104,4 +105,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar; 
+export default Navbar;
