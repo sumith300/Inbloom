@@ -23,33 +23,30 @@ const Results = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary via-primary-dark to-primary-gradient pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-16 md:pb-20 relative overflow-hidden">
-      <div className="fixed inset-0 z-0">
-        {/* Geometric Grid */}
+      <div className="fixed inset-0 z-0 bg-primary/95">
+        {/* Geometric Grid - Optimized for iOS */}
         <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(-45deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-20"></div>
         
-        {/* Animated Gradient Circles */}
-        <div className="absolute inset-0">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-primary-light/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        {/* Animated Gradient Circles - Adjusted for iOS */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-secondary/10 rounded-full filter blur-3xl mix-blend-normal animate-pulse"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-primary-light/10 rounded-full filter blur-3xl mix-blend-normal animate-pulse delay-1000"></div>
         </div>
         
-        {/* Diagonal Lines Pattern */}
-        <div className="absolute inset-0" style={{
+        {/* Diagonal Lines Pattern - iOS Compatible */}
+        <div className="absolute inset-0 opacity-5" style={{
           backgroundImage: `
-            linear-gradient(45deg, transparent 45%, rgba(232,76,164,0.05) 49%, rgba(232,76,164,0.05) 51%, transparent 55%),
-            linear-gradient(-45deg, transparent 45%, rgba(232,76,164,0.05) 49%, rgba(232,76,164,0.05) 51%, transparent 55%)
+            linear-gradient(45deg, transparent 45%, rgba(232,76,164,0.2) 49%, rgba(232,76,164,0.2) 51%, transparent 55%),
+            linear-gradient(-45deg, transparent 45%, rgba(232,76,164,0.2) 49%, rgba(232,76,164,0.2) 51%, transparent 55%)
           `,
           backgroundSize: '60px 60px'
         }}></div>
         
-        {/* Dotted Overlay */}
-        <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle at center, rgba(255,255,255,0.05) 1px, transparent 1px)',
+        {/* Dotted Overlay - Enhanced for iOS */}
+        <div className="absolute inset-0 mix-blend-overlay opacity-10" style={{
+          backgroundImage: 'radial-gradient(circle at center, rgba(255,255,255,0.15) 1px, transparent 1px)',
           backgroundSize: '24px 24px'
         }}></div>
-        
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary-dark to-primary opacity-100"></div>
       </div>
 
       {/* Content */}
