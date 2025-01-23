@@ -100,9 +100,9 @@ const Banner = () => {
             { number: '15+', label: 'Colleges' },
             { number: '2L+', label: 'Prize Pool' },
           ].map((stat, index) => (
-            <div key={index} className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:border-secondary/30 transition-colors duration-300">
+            <div key={index} className="text-center p-6 bg-white/10 backdrop-blur-md rounded-xl border border-white/20 hover:border-secondary/30 transition-colors duration-300 shadow-lg">
               <h3 className="text-3xl font-bold text-secondary">{stat.number}</h3>
-              <p className="text-white/80 mt-2">{stat.label}</p>
+              <p className="text-white mt-2 font-medium">{stat.label}</p>
             </div>
           ))}
         </motion.div>
