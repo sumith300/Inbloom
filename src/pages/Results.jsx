@@ -1,7 +1,18 @@
 import { motion } from 'framer-motion';
 import { collegeResults } from '../utils/constants/results/results';
+import { useState, useEffect } from 'react';
 
 const Results = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   // Calculate college statistics and total prizes
   const collegeStats = collegeResults.map(college => {
     const stats = college.results.reduce(
