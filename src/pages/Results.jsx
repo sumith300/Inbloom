@@ -129,7 +129,7 @@ const Results = () => {
                       className="border-white/10 pt-4 sm:pt-0 sm:pl-6 w-full sm:w-auto"
                       whileHover={{ scale: 1.05 }}
                     >
-                      <div className="flex flex-col items-center bg-gradient-to-br from-secondary/20 to-secondary-light/20 p-4 rounded-xl backdrop-blur-lg border border-white/10 shadow-xl">
+                      <div className="flex flex-col items-center bg-gradient-to-br from-purple-500/30 via-secondary/30 to-pink-500/30 p-4 rounded-xl backdrop-blur-lg border border-white/10 shadow-xl hover:shadow-secondary/20 transition-all duration-300">
                         <span className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-secondary via-secondary-light to-secondary bg-clip-text text-transparent animate-pulse">{college.totalPrizes}</span>
                         <span className="text-sm sm:text-base text-gray-200 font-medium mt-2 tracking-wider uppercase">Total Prizes</span>
                       </div>
