@@ -44,7 +44,14 @@ const ActiveEvents = () => {
   }, []);
 
   return (
-    <div className="bg-white/5 backdrop-blur-md rounded-2xl p-8 border border-white/10 shadow-xl">
+    <div className="relative bg-gradient-to-br from-white/5 via-secondary/5 to-primary-light/5 backdrop-blur-md rounded-2xl p-8 border border-white/10 shadow-xl overflow-hidden">
+      {/* Background Effects */}
+      <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(-45deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-20"></div>
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-br from-secondary/10 via-transparent to-transparent rounded-full filter blur-3xl mix-blend-normal animate-pulse"></div>
+        <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-gradient-to-tl from-primary-light/10 via-transparent to-transparent rounded-full filter blur-3xl mix-blend-normal animate-pulse delay-1000"></div>
+      </div>
+      <div className="relative z-10">
       <h2 className="text-2xl font-display text-center text-white mb-8">
         Active & Upcoming Events
       </h2>
@@ -99,7 +106,7 @@ const ActiveEvents = () => {
         )}
       </div>
 
-      <div className="mt-8 text-center">
+      <div className="relative z-10 mt-8 text-center">
         <Link 
           to="/events"
           className="inline-flex items-center gap-2 text-secondary hover:text-secondary-light transition-colors"
@@ -111,7 +118,8 @@ const ActiveEvents = () => {
         </Link>
       </div>
     </div>
-  );
+  </div>
+);
 };
 
 export default ActiveEvents;
