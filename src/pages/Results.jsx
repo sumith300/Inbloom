@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion';
-import { collegeResults } from '../utils/constants/results/results';
 import { useState, useEffect } from 'react';
 
 const Results = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [collegeResults, setCollegeResults] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const handleResize = () => {
@@ -13,6 +15,58 @@ const Results = () => {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setIsLoading(true);
+        const timestamp = new Date().getTime();
+        // Using GitHub's API to fetch the raw content
+        const response = await fetch(
+          'https://api.github.com/repos/shreyjain14/inbloomData/contents/results.json',
+          {
+            headers: {
+              'Accept': 'application/vnd.github.v3.raw'
+            }
+          }
+        );
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status} - ${response.statusText}`);
+        }
+        const data = await response.json();
+        console.log('Fetched new data:', data); // Debug log
+        setCollegeResults(data);
+      } catch (error) {
+        console.error("Detailed error:", error);
+        setError("Unable to fetch results. Please check your internet connection.");
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+    // Refresh every 10 seconds
+    const intervalId = setInterval(fetchData, 10000);
+    return () => clearInterval(intervalId);
+  }, []);
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-primary via-primary-dark to-primary-gradient flex items-center justify-center">
+        <div className="text-white text-xl">Loading...</div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-primary via-primary-dark to-primary-gradient flex items-center justify-center">
+        <div className="text-white text-xl">Error: {error}</div>
+      </div>
+    );
+  }
+
   // Calculate college statistics and total prizes
   const collegeStats = collegeResults.map(college => {
     const stats = college.results.reduce(
