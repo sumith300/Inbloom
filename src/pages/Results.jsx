@@ -19,9 +19,6 @@ const Results = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        setIsLoading(true);
-        const timestamp = new Date().getTime();
-        // Using GitHub's API to fetch the raw content
         const response = await fetch(
           'https://api.github.com/repos/shreyjain14/inbloomData/contents/results.json',
           {
@@ -35,19 +32,21 @@ const Results = () => {
           throw new Error(`HTTP error! status: ${response.status} - ${response.statusText}`);
         }
         const data = await response.json();
-        console.log('Fetched new data:', data); // Debug log
         setCollegeResults(data);
       } catch (error) {
         console.error("Detailed error:", error);
         setError("Unable to fetch results. Please check your internet connection.");
-      } finally {
-        setIsLoading(false);
       }
     };
 
-    fetchData();
-    // Refresh every 10 seconds
-    const intervalId = setInterval(fetchData, 10000);
+    if (collegeResults.length === 0) {
+      setIsLoading(true);
+      fetchData().finally(() => setIsLoading(false));
+    } else {
+      fetchData();
+    }
+
+    const intervalId = setInterval(fetchData, 60000);
     return () => clearInterval(intervalId);
   }, []);
 
@@ -67,24 +66,36 @@ const Results = () => {
     );
   }
 
-  // Calculate college statistics and total prizes
+  // Calculate college statistics and total points
   const collegeStats = collegeResults.map(college => {
+    const pointsMapping = {
+      1: 30,
+      2: 20,
+      3: 10
+    };
+
     const stats = college.results.reduce(
       (acc, result) => {
+        const basePoints = pointsMapping[result.position] || 0;
+        const points = result.category === "Stage" ? basePoints * 2 : basePoints;
+        acc.totalPoints += points;
+
         if (result.position === 1) acc.first++;
         if (result.position === 2) acc.second++;
         if (result.position === 3) acc.third++;
         return acc;
       },
-      { first: 0, second: 0, third: 0 }
+      { first: 0, second: 0, third: 0, totalPoints: 0 }
     );
     
     return {
       ...college,
-      stats,
-      totalPrizes: stats.first + stats.second + stats.third
+      stats: {
+        ...stats,
+        totalPoints: stats.totalPoints
+      }
     };
-  }).sort((a, b) => b.totalPrizes - a.totalPrizes); // Sort by total prizes won
+  }).sort((a, b) => b.stats.totalPoints - a.stats.totalPoints); // Sort by total points
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary via-primary-dark to-primary-gradient pt-24 sm:pt-28 md:pt-32 pb-12 sm:pb-16 md:pb-20 relative overflow-hidden">
@@ -184,8 +195,8 @@ const Results = () => {
                       whileHover={{ scale: 1.05 }}
                     >
                       <div className="flex flex-col items-center bg-gradient-to-br from-purple-500/30 via-secondary/30 to-pink-500/30 p-4 rounded-xl backdrop-blur-lg border border-white/10 shadow-xl hover:shadow-secondary/20 transition-all duration-300">
-                        <span className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-secondary via-secondary-light to-secondary bg-clip-text text-transparent animate-pulse">{college.totalPrizes}</span>
-                        <span className="text-sm sm:text-base text-gray-200 font-medium mt-2 tracking-wider uppercase">Total Prizes</span>
+                        <span className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-secondary via-secondary-light to-secondary bg-clip-text text-transparent animate-pulse">{college.stats.totalPoints}</span>
+                        <span className="text-sm sm:text-base text-gray-200 font-medium mt-2 tracking-wider uppercase">Total Points</span>
                       </div>
                     </motion.div>
                   </div>
